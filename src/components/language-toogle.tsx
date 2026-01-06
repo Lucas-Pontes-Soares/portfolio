@@ -1,4 +1,4 @@
-import { Moon, Sun } from "lucide-react"
+import { Earth } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -7,29 +7,26 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { useTheme } from "@/components/ui/theme-provider"
+import { useTheme } from "./ui/theme-provider"
+import { US, BR } from 'country-flag-icons/react/3x2'
 
-export function ModeToggle() {
+export function LanguageTootgle() {
   const { setTheme } = useTheme()
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
+      <DropdownMenuTrigger asChild className="hover: cursor-pointer">
         <Button variant="outline" size="icon" className="dark:text-white dark:bg-black">
-          <Sun className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
-          <Moon className="absolute h-[1.2rem] w-[1.2rem] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
+          <Earth className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all" />
           <span className="sr-only">Trocar tema</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         <DropdownMenuItem onClick={() => setTheme("light")}>
-          Claro
+          <US />English
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("dark")}>
-          Escuro
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("system")}>
-          Sistema
+          <BR />Português
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
