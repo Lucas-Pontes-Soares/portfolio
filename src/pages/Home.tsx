@@ -3,9 +3,9 @@ import { SkillBadge } from "@/components/skill-badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { BR, ES, US } from "country-flag-icons/react/3x2";
 import { LucideFileJson } from "lucide-react";
-import { FaAngular, FaArrowsAlt, FaCheck, FaClipboardList, FaCode, FaComment, FaCss3Alt, FaDocker, FaExchangeAlt, FaGitAlt, FaHtml5, FaJava, FaJs, FaLightbulb, FaMicrochip, FaMobileAlt, FaNodeJs, FaNpm, FaPalette, FaPhp, FaProjectDiagram, FaReact, FaServer, FaTasks, FaThLarge, FaUsers, FaWordpress, FaWrench } from "react-icons/fa";
+import { FaAngular, FaArrowsAlt, FaCheck, FaClipboardList, FaCode, FaComment, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGitAlt, FaHtml5, FaJava, FaJs, FaLightbulb, FaMicrochip, FaMobileAlt, FaNodeJs, FaNpm, FaPalette, FaPhp, FaPlay, FaProjectDiagram, FaPython, FaReact, FaTasks, FaThLarge, FaUsers, FaWordpress, FaWrench } from "react-icons/fa";
 import { GiFamilyTree } from 'react-icons/gi';
-import { SiMongodb, SiTypescript } from "react-icons/si";
+import { SiEspressif, SiGrafana, SiMongodb, SiPostgresql, SiRabbitmq, SiRedis, SiTypescript } from "react-icons/si";
 
 export default function Home() {
 
@@ -35,40 +35,88 @@ export default function Home() {
             </Card>
           </div>
 
-          <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="mt-8 flex flex-col gap-8">
             <Card>
               <CardHeader>
                 <CardTitle># Hard Skills</CardTitle>
               </CardHeader>
-              <CardContent>
-                <h3 className="font-semibold mb-2">Tecnologias:</h3>
-                <div className="flex flex-wrap gap-2">
-                  <SkillBadge name="HTML" icon={FaHtml5} />
-                  <SkillBadge name="CSS" icon={FaCss3Alt} />
-                  <SkillBadge name="JavaScript" icon={FaJs} />
-                  <SkillBadge name="Typescript" icon={SiTypescript} />
-                  <SkillBadge name="Node.JS" icon={FaNodeJs} />
-                  <SkillBadge name="React.JS" icon={FaReact} />
-                  <SkillBadge name="Docker" icon={FaDocker} />
-                  <SkillBadge name="Angular" icon={FaAngular} />
-                  <SkillBadge name="Arduino" icon={FaMicrochip} />
-                  <SkillBadge name="PHP" icon={FaPhp} />
-                  <SkillBadge name="MongoDB" icon={SiMongodb}/>
-                  <SkillBadge name="SQL" icon={FaServer} />
-                  <SkillBadge name="NPM" icon={FaNpm} />
-                  <SkillBadge name="Git" icon={FaGitAlt} />
-                  <SkillBadge name="Flutter" icon={FaMobileAlt} />
-                  <SkillBadge name="API" icon={FaExchangeAlt} />
-                  <SkillBadge name="Java" icon={FaJava} />
-                  <SkillBadge name="JSON" icon={LucideFileJson} />
-                  <SkillBadge name="C" icon={FaCode} />
-                  <SkillBadge name="WordPress" icon={FaWordpress} />
+              <CardContent className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div>
+                  <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">Linguagens:</h3>
+                  <div className="flex flex-wrap gap-2">
+                    <SkillBadge name="JavaScript" icon={FaJs} />
+                    <SkillBadge name="Typescript" icon={SiTypescript} />
+                    <SkillBadge name="PHP" icon={FaPhp} />
+                    <SkillBadge name="Java" icon={FaJava} />
+                    <SkillBadge name="C" icon={FaCode} />
+                    <SkillBadge name="HTML" icon={FaHtml5} />
+                    <SkillBadge name="CSS" icon={FaCss3Alt} />
+                    <SkillBadge name="Python" icon={FaPython} />
+                  </div>
                 </div>
-                <h3 className="font-semibold mt-4 mb-2">Fundamentos:</h3>
-                <div className="flex flex-wrap gap-2">
-                  <SkillBadge name="Estrutura de Dados" icon={GiFamilyTree} />
-                  <SkillBadge name="Lógica de Programação" icon={FaLightbulb} />
-                  <SkillBadge name="Boas Práticas" icon={FaCheck} />
+
+                <div>
+                  <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">Frameworks & Bibliotecas:</h3>
+                  <div className="flex flex-wrap gap-2">
+                    <SkillBadge name="Node.JS" icon={FaNodeJs} />
+                    <SkillBadge name="React.JS" icon={FaReact} />
+                    <SkillBadge name="Angular" icon={FaAngular} />
+                    <SkillBadge name="Flutter" icon={FaMobileAlt} />
+                    <SkillBadge name="WordPress" icon={FaWordpress} />
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">Banco de Dados:</h3>
+                  <div className="flex flex-wrap gap-2">
+                    <SkillBadge name="Postgresql" icon={SiPostgresql} />
+                    <SkillBadge name="SQL" icon={FaDatabase} />
+                    <SkillBadge name="MongoDB" icon={SiMongodb}/>
+                    <SkillBadge name="Redis" icon={SiRedis} />
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">Mensageria & Filas:</h3>
+                  <div className="flex flex-wrap gap-2">
+                    <SkillBadge name="RabbitMQ" icon={SiRabbitmq} />
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">DevOps & Monitoria:</h3>
+                  <div className="flex flex-wrap gap-2">
+                    <SkillBadge name="Docker" icon={FaDocker} />
+                    <SkillBadge name="Git" icon={FaGitAlt} />
+                    <SkillBadge name="Github Actions" icon={FaPlay} />
+                    <SkillBadge name="Grafana" icon={SiGrafana} />
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">Automação:</h3>
+                  <div className="flex flex-wrap gap-2">
+                    <SkillBadge name="Arduino" icon={FaMicrochip} />
+                    <SkillBadge name="ESP 32" icon={SiEspressif} />
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">Web & Integração:</h3>
+                  <div className="flex flex-wrap gap-2">
+                    <SkillBadge name="API" icon={FaExchangeAlt} />
+                    <SkillBadge name="JSON" icon={LucideFileJson} />
+                    <SkillBadge name="API REST" icon={FaExchangeAlt} />
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">Conceitos:</h3>
+                  <div className="flex flex-wrap gap-2">
+                    <SkillBadge name="Estrutura de Dados" icon={GiFamilyTree} />
+                    <SkillBadge name="Lógica de Programação" icon={FaLightbulb} />
+                    <SkillBadge name="Boas Práticas" icon={FaCheck} />
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -78,7 +126,7 @@ export default function Home() {
                 <CardTitle># Soft Skills</CardTitle>
               </CardHeader>
               <CardContent>
-                <h3 className="font-semibold mb-2">Práticas:</h3>
+                <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">Práticas:</h3>
                 <div className="flex flex-wrap gap-2">
                   <SkillBadge name="Trabalho em Equipe" icon={FaUsers} />
                   <SkillBadge name="Organização" icon={FaClipboardList}  />
@@ -92,7 +140,8 @@ export default function Home() {
                 </div>
               </CardContent>
             </Card>
-            <Card className="lg:col-span-2">
+
+            <Card>
               <CardHeader>
                 <CardTitle># Idiomas</CardTitle>
               </CardHeader>

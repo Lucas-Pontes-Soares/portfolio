@@ -8,11 +8,28 @@ import { MultiSelect } from "@/components/ui/multi-select";
 
 const projects = [
   {
+    title: "Cache com Redis em Node.js",
+    subtitle: "Curso Rocketseat",
+    date: "Mar 2026 - Mar 2026",
+    imagePath: "/learn-redis.png",
+    description: "Aprender a utilizar o Redis como cache em Node.js armazenando informações com chave:valor que são frequentemente usadas e não mudam sempre.",
+    tags: ["Node.JS", "Redis", "PostgreSQL (SQL)", "RabbitMQ", "Git","Docker",],
+    repoUrl: "https://github.com/Lucas-Pontes-Soares/learn-redis",
+    topics: [
+      "Desenvolvi a criação de um usuário",
+      "Configurei Docker para subir o banco de dados e redis",
+      "Configurei o Redis para salvar os dados do usuario",
+      "Utilizei como chave no redis user-${idUser} e converti o objeto do usuario para string",
+      "Analisei as diferenças entre banco de dados e o redis",
+      "Entendi a diferença entre os tempos de resposta",
+    ]
+  },
+  {
     title: "Desafio Microsserviços Escaláveis Nodejs",
     subtitle: "Curso Rocketseat",
     date: "Fev 2026 - Fev 2026",
     imagePath: "/microservices.png",
-    description: "Construção de dois microsserviços independentes, integração entre serviços com comunicação assíncrona utilizando RabbitMQ, modelagem e criação de tabelas no PostgreSQL, aplicação dos conceitos de consistência eventual e replicação de dados entre microsserviços, implementação de observabilidade com Grafana utilizando técnicas de logging estruturado e tracing distribuído e deploy com AWS Fargate através de infraestrutura como código com a ferramenta Pulumi.",
+    description: "Construção de dois microsserviços independentes, integração entre serviços com comunicação assíncrona utilizando RabbitMQ, PostgreSQL, aplicação dos conceitos de consistência eventual e replicação de dados entre microsserviços, observabilidade com Grafana utilizando técnicas de logging estruturado e tracing distribuído e deploy com AWS Fargate através do Pulumi.",
     tags: ["Node.JS", "PostgreSQL (SQL)", "RabbitMQ", "Grafana", "Pulimi", "AWS", "Git", "Github", "Drizzle", "Docker", "Github Actions"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/desafio-microsservicos-escalaveis-nodejs",
     topics: [
