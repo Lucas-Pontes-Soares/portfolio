@@ -8,6 +8,23 @@ import { MultiSelect } from "@/components/ui/multi-select";
 
 const projects = [
   {
+    title: "Desafio Microsserviços Escaláveis Nodejs",
+    subtitle: "Curso Rocketseat",
+    date: "Fev 2026 - Fev 2026",
+    imagePath: "/microservices.png",
+    description: "Construção de dois microsserviços independentes, integração entre serviços com comunicação assíncrona utilizando RabbitMQ, modelagem e criação de tabelas no PostgreSQL, aplicação dos conceitos de consistência eventual e replicação de dados entre microsserviços, implementação de observabilidade com Grafana utilizando técnicas de logging estruturado e tracing distribuído e deploy com AWS Fargate através de infraestrutura como código com a ferramenta Pulumi.",
+    tags: ["Node.JS", "PostgreSQL (SQL)", "RabbitMQ", "Grafana", "Pulimi", "AWS", "Git", "Github", "Drizzle", "Docker", "Github Actions"],
+    repoUrl: "https://github.com/Lucas-Pontes-Soares/desafio-microsservicos-escalaveis-nodejs",
+    topics: [
+      "Desenvolvi microsserviços independentes com comunicação assíncrona via RabbitMQ.",
+      "Configurei Docker para subir o banco de dados e rabbitmq",
+      "Apliquei persistência em PostgreSQL com Drizzle.",
+      "Implementei Migrations no banco de dados",
+      "Implementei observabilidade com Grafana (logging e tracing)",
+      "Automatizei o deploy na AWS Fagete via Pulumi",
+    ]
+  },
+  {
     title: "Dumble: Sistema Educacional Com Inteligência Artificial",
     subtitle: "FATEC | Projeto Integrador",
     date: "Fev 2025 - Dez 2025",
