@@ -3,7 +3,7 @@ import { SkillBadge } from "@/components/skill-badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { BR, ES, US } from "country-flag-icons/react/3x2";
 import { LucideFileJson } from "lucide-react";
-import { FaAngular, FaArrowsAlt, FaCheck, FaClipboardList, FaCode, FaComment, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGitAlt, FaHtml5, FaJava, FaJs, FaLightbulb, FaMicrochip, FaMobileAlt, FaNodeJs, FaNpm, FaPalette, FaPhp, FaPlay, FaProjectDiagram, FaPython, FaReact, FaTasks, FaThLarge, FaUsers, FaWordpress, FaWrench } from "react-icons/fa";
+import { FaAngular, FaArrowsAlt, FaCheck, FaClipboardList, FaCode, FaComment, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGitAlt, FaHtml5, FaJava, FaJs, FaLightbulb, FaMicrochip, FaMobileAlt, FaNodeJs, FaPalette, FaPhp, FaPlay, FaProjectDiagram, FaPython, FaReact, FaTasks, FaThLarge, FaUsers, FaWordpress, FaWrench } from "react-icons/fa";
 import { GiFamilyTree } from 'react-icons/gi';
 import { SiEspressif, SiGrafana, SiMongodb, SiPostgresql, SiRabbitmq, SiRedis, SiTypescript } from "react-icons/si";
 
