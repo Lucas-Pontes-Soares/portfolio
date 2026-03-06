@@ -8,6 +8,23 @@ import { MultiSelect } from "@/components/ui/multi-select";
 
 const projects = [
   {
+    title: "Práticas de RAG",
+    subtitle: "Curso Rocketseat",
+    date: "Mar 2026 - Mar 2026",
+    imagePath: "/rag.png",
+    description: "Aprender práticas de RAG como Chunking para quebrar em textos menores, Embeddings para representações númericas de contexto, Store armazenando em bancos de vetores como o Turso, Search busca por similaridade, extrair e formatar informações de site com Firecrawl scrape.",
+    tags: ["Typescript", "RAG", "IA", "Docker", "Turso", "Firecrawl", "Gemini", "Git", "Embeddings", "Chunks"],
+    repoUrl: "https://github.com/Lucas-Pontes-Soares/learn-rag",
+    topics: [
+      "Desenvolvi lógica para extrair um .md de um site através do FirecrawlApp",
+      "Desenvolvi a logica de quebrar o .md em chunks e trabalhando com chunks overlap",
+      "Gerei os embeddings de cada chunk através do gemini",
+      "Salvei os embeddings, no banco de dados de vetor Turso",
+      "Transformei a busca 'prompt' em embeddings",
+      "Fiz a busca por contexto entre o prompt e os chunks através de similaridade",
+    ]
+  },
+  {
     title: "Cache com Redis em Node.js",
     subtitle: "Curso Rocketseat",
     date: "Mar 2026 - Mar 2026",

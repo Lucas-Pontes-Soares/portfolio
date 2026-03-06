@@ -15,13 +15,14 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { Github, Monitor, TableOfContents } from "lucide-react";
+import { Github, Monitor, TableOfContents, VectorSquare } from "lucide-react";
 import ReactPlayer from 'react-player'
 import { SkillBadge } from "./skill-badge";
-import { FaAngular, FaBroadcastTower, FaBrain, FaChalkboardTeacher, FaClipboardList, FaCode, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGithub, FaGitAlt, FaHtml5, FaLightbulb, FaMicrochip, FaNodeJs, FaPaintBrush, FaPhp, FaPlay, FaPython, FaQuestionCircle, FaReact, FaRobot, FaRocket, FaRunning, FaSearchMinus, FaSitemap, FaSync, FaUsers, FaWrench, FaJs, FaAws } from "react-icons/fa";
-import { SiDrizzle, SiFlutter, SiGrafana, SiHeroku, SiJsonwebtokens, SiKubernetes, SiMongodb, SiMysql, SiPostgresql, SiPulumi, SiRabbitmq, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { FaAngular, FaBroadcastTower, FaBrain, FaChalkboardTeacher, FaClipboardList, FaCode, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGithub, FaGitAlt, FaHtml5, FaLightbulb, FaMicrochip, FaNodeJs, FaPaintBrush, FaPhp, FaPlay, FaPython, FaQuestionCircle, FaReact, FaRobot, FaRocket, FaRunning, FaSearchMinus, FaSitemap, FaSync, FaUsers, FaWrench, FaJs, FaAws, FaFire } from "react-icons/fa";
+import { SiDrizzle, SiFlutter, SiGooglegemini, SiGrafana, SiHeroku, SiJsonwebtokens, SiKubernetes, SiMongodb, SiMysql, SiPostgresql, SiPulumi, SiRabbitmq, SiTailwindcss, SiTurso, SiTypescript } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 import { type IconType } from "react-icons";
+import { GiKnifeFork, } from "react-icons/gi";
 
 interface ProjectCardProps {
   title: string;
@@ -91,7 +92,12 @@ const iconMapping: { [key: string]: IconType } = {
   "RabbitMQ": SiRabbitmq,
   "Grafana": SiGrafana,
   "Pulimi": SiPulumi,
-  "Drizzle": SiDrizzle
+  "Drizzle": SiDrizzle,
+  "Turso": SiTurso,
+  "Firecrawl": FaFire,
+  "Gemini": SiGooglegemini,
+  "Embeddings": VectorSquare,
+  "Chunks": GiKnifeFork
 };
 
 const getIconForSkill = (skill: string): IconType | undefined => {
