@@ -2,10 +2,10 @@ import Navigation from "@/components/navigation";
 import { SkillBadge } from "@/components/skill-badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { BR, ES, US } from "country-flag-icons/react/3x2";
-import { LucideFileJson } from "lucide-react";
-import { FaAngular, FaArrowsAlt, FaCheck, FaClipboardList, FaCode, FaComment, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGitAlt, FaHtml5, FaJava, FaJs, FaLightbulb, FaMicrochip, FaMobileAlt, FaNodeJs, FaPalette, FaPhp, FaPlay, FaProjectDiagram, FaPython, FaReact, FaTasks, FaThLarge, FaUsers, FaWordpress, FaWrench } from "react-icons/fa";
+import { File, LucideFileJson } from "lucide-react";
+import { FaAngular, FaArrowsAlt, FaBrain, FaCheck, FaClipboardList, FaCode, FaComment, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGitAlt, FaHtml5, FaJava, FaJs, FaLightbulb, FaMicrochip, FaMobileAlt, FaNodeJs, FaPalette, FaPhp, FaPlay, FaProjectDiagram, FaPython, FaReact, FaSitemap, FaTasks, FaThLarge, FaUsers, FaWordpress, FaWrench } from "react-icons/fa";
 import { GiFamilyTree } from 'react-icons/gi';
-import { SiEspressif, SiGrafana, SiMongodb, SiPostgresql, SiRabbitmq, SiRedis, SiTypescript } from "react-icons/si";
+import { SiEspressif, SiGooglegemini, SiGrafana, SiMongodb, SiOpenai, SiPostgresql, SiRabbitmq, SiRedis, SiTypescript } from "react-icons/si";
 
 export default function Home() {
 
@@ -98,6 +98,20 @@ export default function Home() {
                   <div className="flex flex-wrap gap-2">
                     <SkillBadge name="Arduino" icon={FaMicrochip} />
                     <SkillBadge name="ESP 32" icon={SiEspressif} />
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">Inteligência Artificial:</h3>
+                  <div className="flex flex-wrap gap-2">
+                    <SkillBadge name="Gemini" icon={SiGooglegemini} />
+                    <SkillBadge name="RAG" icon={File} />
+                    <SkillBadge name="Perceptron" icon={FaBrain} />
+                    <SkillBadge name="OpenAI" icon={SiOpenai} />
+                    <SkillBadge name="Árvores de Decisão" icon={FaSitemap} />
+                    <SkillBadge name="CNN" icon={FaBrain} />
+                    <SkillBadge name="Redes Neurais" icon={FaBrain} />
+                    <SkillBadge name="Navegação e Busca" icon={FaCompass} />
                   </div>
                 </div>
 
