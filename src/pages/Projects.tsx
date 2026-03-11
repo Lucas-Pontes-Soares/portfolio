@@ -408,7 +408,7 @@ const projects = [
   {
     title: "Janela Automática",
     subtitle: "Projeto da Faculdade",
-    date: "Set de 2022 - Dez de 2022",
+    date: "Set de 2025 - Dez de 2025",
     imagePath: "/janela.png",
     repoUrl: "https://github.com/Lucas-Pontes-Soares/JanelaAutomatica",
     description: "Projeto que construimos uma janela automática com esp-32, motores e sensores. Com sensores de chuva, temperatura, claridade, definimos quando a janela fecha e abre. Utilizando o protocolo MQQT para ter controle em um aplicativo externo, e visualizar gráficos dos dados capturados.",
