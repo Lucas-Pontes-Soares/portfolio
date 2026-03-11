@@ -19,7 +19,7 @@ import { Github, Monitor, TableOfContents, VectorSquare } from "lucide-react";
 import ReactPlayer from 'react-player'
 import { SkillBadge } from "./skill-badge";
 import { FaAngular, FaBroadcastTower, FaBrain, FaChalkboardTeacher, FaClipboardList, FaCode, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGithub, FaGitAlt, FaHtml5, FaLightbulb, FaMicrochip, FaNodeJs, FaPaintBrush, FaPhp, FaPlay, FaPython, FaQuestionCircle, FaReact, FaRobot, FaRocket, FaRunning, FaSearchMinus, FaSitemap, FaSync, FaUsers, FaWrench, FaJs, FaAws, FaFire } from "react-icons/fa";
-import { SiDrizzle, SiFlutter, SiGooglegemini, SiGrafana, SiHeroku, SiJsonwebtokens, SiKubernetes, SiMongodb, SiMysql, SiPostgresql, SiPulumi, SiRabbitmq, SiTailwindcss, SiTurso, SiTypescript } from "react-icons/si";
+import { SiDrizzle, SiFlutter, SiGooglegemini, SiGrafana, SiHeroku, SiJaeger, SiJsonwebtokens, SiKubernetes, SiMongodb, SiMysql, SiNestjs, SiPostgresql, SiPrisma, SiPulumi, SiRabbitmq, SiSqlite, SiTailwindcss, SiTurso, SiTypescript } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 import { type IconType } from "react-icons";
 import { GiKnifeFork, } from "react-icons/gi";
@@ -97,7 +97,11 @@ const iconMapping: { [key: string]: IconType } = {
   "Firecrawl": FaFire,
   "Gemini": SiGooglegemini,
   "Embeddings": VectorSquare,
-  "Chunks": GiKnifeFork
+  "Chunks": GiKnifeFork,
+  "Nest.JS": SiNestjs,
+  "Prisma": SiPrisma,
+  "SQLite": SiSqlite,
+  "Jaeger": SiJaeger
 };
 
 const getIconForSkill = (skill: string): IconType | undefined => {

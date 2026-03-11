@@ -5,7 +5,7 @@ import { BR, ES, US } from "country-flag-icons/react/3x2";
 import { File, LucideFileJson } from "lucide-react";
 import { FaAngular, FaArrowsAlt, FaBrain, FaCheck, FaClipboardList, FaCode, FaComment, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGitAlt, FaHtml5, FaJava, FaJs, FaLightbulb, FaMicrochip, FaMobileAlt, FaNodeJs, FaPalette, FaPhp, FaPlay, FaProjectDiagram, FaPython, FaReact, FaSitemap, FaTasks, FaThLarge, FaUsers, FaWordpress, FaWrench } from "react-icons/fa";
 import { GiFamilyTree } from 'react-icons/gi';
-import { SiEspressif, SiGooglegemini, SiGrafana, SiMongodb, SiOpenai, SiPostgresql, SiRabbitmq, SiRedis, SiTypescript } from "react-icons/si";
+import { SiEspressif, SiGooglegemini, SiGrafana, SiMongodb, SiNestjs, SiOpenai, SiPostgresql, SiRabbitmq, SiRedis, SiTypescript } from "react-icons/si";
 
 export default function Home() {
 
@@ -59,6 +59,7 @@ export default function Home() {
                   <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">Frameworks & Bibliotecas:</h3>
                   <div className="flex flex-wrap gap-2">
                     <SkillBadge name="Node.JS" icon={FaNodeJs} />
+                    <SkillBadge name="Nest.JS" icon={SiNestjs} />
                     <SkillBadge name="React.JS" icon={FaReact} />
                     <SkillBadge name="Angular" icon={FaAngular} />
                     <SkillBadge name="Flutter" icon={FaMobileAlt} />

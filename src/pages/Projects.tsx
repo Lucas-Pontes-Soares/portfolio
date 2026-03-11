@@ -8,6 +8,21 @@ import { MultiSelect } from "@/components/ui/multi-select";
 
 const projects = [
   {
+    title: "MasterClass Nest.JS",
+    subtitle: "Curso Rocketseat",
+    date: "Mar 2026 - Mar 2026",
+    imagePath: "/nest.jpg",
+    description: "Aprender práticas do framework Nest, que trás opinião e é altamente extensivel, aprender sobre Modules, Controllers, Provides, Repositorios, Decorators, DTOs. E também aplicação dos conceitos de Inversão de Dependência e Injeção de Dependência.",
+    tags: ["Nest.JS", "Typescript", "Node.JS", "Prisma", "SQLite", "Git"],
+    repoUrl: "https://github.com/Lucas-Pontes-Soares/masterclass-nestjs",
+    topics: [
+      "Desenvolvi uma API em Nest, para aprender sobre os conceitos do framework",
+      "Apliquei conceitos de Inversão de Dependência e Injeção de Dependência",
+      "Criei um banco de dados SQLite com Prisma",
+      "Organizei e separei tudo em modules, controllers, provides, repositories, dtos"
+    ]
+  },
+  {
     title: "Práticas de RAG",
     subtitle: "Curso Rocketseat",
     date: "Mar 2026 - Mar 2026",
@@ -28,7 +43,7 @@ const projects = [
     title: "Cache com Redis em Node.js",
     subtitle: "Curso Rocketseat",
     date: "Mar 2026 - Mar 2026",
-    imagePath: "/learn-redis.png",
+    imagePath: "/redis.jpg",
     description: "Aprender a utilizar o Redis como cache em Node.js armazenando informações com chave:valor que são frequentemente usadas e não mudam sempre.",
     tags: ["Node.JS", "Redis", "PostgreSQL (SQL)", "RabbitMQ", "Git","Docker",],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/learn-redis",
@@ -47,14 +62,14 @@ const projects = [
     date: "Fev 2026 - Fev 2026",
     imagePath: "/microservices.png",
     description: "Construção de dois microsserviços independentes, integração entre serviços com comunicação assíncrona utilizando RabbitMQ, PostgreSQL, aplicação dos conceitos de consistência eventual e replicação de dados entre microsserviços, observabilidade com Grafana utilizando técnicas de logging estruturado e tracing distribuído e deploy com AWS Fargate através do Pulumi.",
-    tags: ["Node.JS", "PostgreSQL (SQL)", "RabbitMQ", "Grafana", "Pulimi", "AWS", "Git", "Github", "Drizzle", "Docker", "Github Actions"],
+    tags: ["Node.JS", "PostgreSQL (SQL)", "RabbitMQ", "Grafana", "Jaeger", "Pulimi", "AWS", "Git", "Github", "Drizzle", "Docker", "Github Actions"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/desafio-microsservicos-escalaveis-nodejs",
     topics: [
       "Desenvolvi microsserviços independentes com comunicação assíncrona via RabbitMQ.",
       "Configurei Docker para subir o banco de dados e rabbitmq",
       "Apliquei persistência em PostgreSQL com Drizzle.",
       "Implementei Migrations no banco de dados",
-      "Implementei observabilidade com Grafana (logging e tracing)",
+      "Implementei observabilidade com Grafana e Jaeger (logging e tracing)",
       "Automatizei o deploy na AWS Fagete via Pulumi",
     ]
   },
