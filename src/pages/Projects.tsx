@@ -8,6 +8,23 @@ import { MultiSelect } from "@/components/ui/multi-select";
 
 const projects = [
   {
+    title: "Jogo da Velha com IA",
+    subtitle: "Trabalho da Faculdade",
+    date: "Set 2025 - Set 2025",
+    imagePath: "/jogo-velha.png",
+    description: "Um Jogo da Velha clássico, com uma reviravolta moderna: seu adversário é IA, uma inteligência artificial que usa a API do Gemini.",
+    tags: ["Python", "IA", "Gemini", "Git"],
+    repoUrl: "https://github.com/Lucas-Pontes-Soares/jogo-da-velha-com-ia",
+    topics: [
+      "Desenvolvi a lógica do jogo da velha, na qual temos o Jogador e a IA",
+      "Desenvolvi a lógica na qual o jogador escolhe se quer ser 'X' ou 'O'",
+      "Apliquei conceito de dificuldade (fácil, médio ou díficil), na qual a IA, recebe uma instrução diferente",
+      "Programei para iniciar a partida com um sorteio de 50/50 para quem vai iniciar",
+      "Programei um campo 3x3, representado por uma matriz com posições de 0 a 2 para linhas e colunas.",
+      "No final, é decidido se temos uma vitória do Jogador ou da IA, ou até mesmo empate."
+    ]
+  },
+  {
     title: "MasterClass Nest.JS",
     subtitle: "Curso Rocketseat",
     date: "Mar 2026 - Mar 2026",
