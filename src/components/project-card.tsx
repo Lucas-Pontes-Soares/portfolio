@@ -18,8 +18,8 @@ import { Button } from "@/components/ui/button";
 import { Github, Monitor, TableOfContents, VectorSquare } from "lucide-react";
 import ReactPlayer from 'react-player'
 import { SkillBadge } from "./skill-badge";
-import { FaAngular, FaBroadcastTower, FaBrain, FaChalkboardTeacher, FaClipboardList, FaCode, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGithub, FaGitAlt, FaHtml5, FaLightbulb, FaMicrochip, FaNodeJs, FaPaintBrush, FaPhp, FaPlay, FaPython, FaQuestionCircle, FaReact, FaRobot, FaRocket, FaRunning, FaSearchMinus, FaSitemap, FaSync, FaUsers, FaWrench, FaJs, FaAws, FaFire } from "react-icons/fa";
-import { SiDrizzle, SiFlutter, SiGooglegemini, SiGrafana, SiHeroku, SiJaeger, SiJsonwebtokens, SiKubernetes, SiMongodb, SiMysql, SiNestjs, SiPostgresql, SiPrisma, SiPulumi, SiRabbitmq, SiSqlite, SiTailwindcss, SiTurso, SiTypescript } from "react-icons/si";
+import { FaAngular, FaBroadcastTower, FaBrain, FaChalkboardTeacher, FaClipboardList, FaCode, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGithub, FaGitAlt, FaHtml5, FaLightbulb, FaMicrochip, FaNodeJs, FaPaintBrush, FaPhp, FaPlay, FaPython, FaQuestionCircle, FaReact, FaRobot, FaRocket, FaRunning, FaSearchMinus, FaSitemap, FaSync, FaUsers, FaWrench, FaJs, FaAws, FaFire, FaUserShield, FaShieldAlt, FaLock, FaPencilAlt, FaNetworkWired } from "react-icons/fa";
+import { SiDrizzle, SiFlutter, SiGooglegemini, SiGrafana, SiHeroku, SiJaeger, SiJsonwebtokens, SiKubernetes, SiMongodb, SiMysql, SiNestjs, SiNextdotjs, SiPostgresql, SiPrisma, SiPulumi, SiRabbitmq, SiSqlite, SiTailwindcss, SiTurso, SiTypescript, SiMui } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 import { type IconType } from "react-icons";
 import { GiKnifeFork, } from "react-icons/gi";
@@ -41,7 +41,7 @@ const iconMapping: { [key: string]: IconType } = {
   "IA": FaRobot,
   "Node.JS": FaNodeJs,
   "React.JS": FaReact,
-  "PostgreSQL (SQL)": SiPostgresql,
+  "PostgreSQL": SiPostgresql,
   "RAG": FaQuestionCircle,
   "JWT": SiJsonwebtokens,
   "Heroku": SiHeroku,
@@ -101,7 +101,15 @@ const iconMapping: { [key: string]: IconType } = {
   "Nest.JS": SiNestjs,
   "Prisma": SiPrisma,
   "SQLite": SiSqlite,
-  "Jaeger": SiJaeger
+  "Jaeger": SiJaeger,
+  "Roles": FaUserShield,
+  "RBAC": FaShieldAlt,
+  "ABAC": FaLock,
+  "Next.JS": SiNextdotjs,
+  "MCP": FaNetworkWired,
+  "Agentes": FaRobot,
+  "Pencil": FaPencilAlt,
+  "Base-ui": SiMui,
 };
 
 const getIconForSkill = (skill: string): IconType | undefined => {

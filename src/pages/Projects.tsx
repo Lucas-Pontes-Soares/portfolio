@@ -8,6 +8,39 @@ import { MultiSelect } from "@/components/ui/multi-select";
 
 const projects = [
   {
+    title: "Nest.JS Library API",
+    subtitle: "Projeto pessoal de Nest",
+    date: "Mar 2026 - Abr 2026",
+    imagePath: "/nest-library.png",
+    description: "Projeto pessoal para aplicar melhores práticas de programção/estrutura/design no Nest.JS. Uma api para uma biblioteca física, com usuarios (client/librarian), para fazer reserva e reviews de livros cadastrados, com controle de autenticação e permissões, controlados, por tokens e role control.",
+    tags: ["Nest.JS", "Node.JS", "Typescript", "Git", "PostgreSQL", "Drizzle", "Roles", "RBAC", "ABAC", "JWT"],
+    repoUrl: "https://github.com/Lucas-Pontes-Soares/nest-library-api",
+    topics: [
+      "Apliquei práticas, separando em módulos cada um com repositories, dtos, controllers, interfaces, services;",
+      "Implementei autenticação por tokens JWT, utilizei Guard para verificação;",
+      "Desenvolvi com banco de dados SQL, com o PostgreSQL, através do Drizzle;",
+      "Desenvolvi logica de roles/permissões, com separando entre client/librarian, e utilizei Guard para permissões;",
+      "Implementei as permissões no arquivo permissions.ts, que cada usuario tem funções, que precisa possuir para executar.",
+    ]
+  },
+  {
+    title: "DevRoast",
+    subtitle: "NLW Operator Rocketseat",
+    date: "Mar 2026 - Mar 2026",
+    imagePath: "/operator.jpg",
+    description: "Cole seu codigo. Leve um roast. DevRoast e um analisador de qualidade de codigo via IA que da uma nota brutalmente honesta de 0 a 10. Melhores práticas de vibe coding, com agentes, MCPs, skills, prompts. ",
+    tags: ["Next.JS", "Node.JS", "IA", "Gemini", "MCP", "Git", "Agentes", "Typescript", "tailwind-css", "Pencil", "Base-ui", "PostgreSQL"],
+    repoUrl: "https://github.com/Lucas-Pontes-Soares/devroast",
+    topics: [
+      "Apliquei melhores práticas de prompts com os agentes;",
+      "Integrei com MCPs, e com skills, para performar ainda mais;",
+      "Desenvolvi o front-end com Next.JS;",
+      "Desenvolvi o back-end with Node.JS, with PostgreSQL;",
+      "Fiz a lógica de análisar o código enviado atráves de api do gemini;",
+      "Programei a exibição de pontuações, correções e ranqueamento.",
+    ]
+  },
+  {
     title: "Jogo da Velha com IA",
     subtitle: "Trabalho da Faculdade",
     date: "Set 2025 - Set 2025",
@@ -16,12 +49,12 @@ const projects = [
     tags: ["Python", "IA", "Gemini", "Git"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/jogo-da-velha-com-ia",
     topics: [
-      "Desenvolvi a lógica do jogo da velha, na qual temos o Jogador e a IA",
-      "Desenvolvi a lógica na qual o jogador escolhe se quer ser 'X' ou 'O'",
-      "Apliquei conceito de dificuldade (fácil, médio ou díficil), na qual a IA, recebe uma instrução diferente",
-      "Programei para iniciar a partida com um sorteio de 50/50 para quem vai iniciar",
-      "Programei um campo 3x3, representado por uma matriz com posições de 0 a 2 para linhas e colunas.",
-      "No final, é decidido se temos uma vitória do Jogador ou da IA, ou até mesmo empate."
+      "Desenvolvi a lógica do jogo da velha, na qual temos o Jogador e a IA;",
+      "Desenvolvi a lógica na qual o jogador escolhe se quer ser 'X' ou 'O';",
+      "Apliquei conceito de dificuldade (fácil, médio ou díficil), na qual a IA, recebe uma instrução diferente;",
+      "Programei para iniciar a partida com um sorteio de 50/50 para quem vai iniciar;",
+      "Programei um campo 3x3, representado por uma matriz com posições de 0 a 2 para linhas e colunas;",
+      "No final, é decidido se temos uma vitória do Jogador ou da IA, ou até mesmo empate.",
     ]
   },
   {
@@ -33,10 +66,10 @@ const projects = [
     tags: ["Nest.JS", "Typescript", "Node.JS", "Prisma", "SQLite", "Git"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/masterclass-nestjs",
     topics: [
-      "Desenvolvi uma API em Nest, para aprender sobre os conceitos do framework",
-      "Apliquei conceitos de Inversão de Dependência e Injeção de Dependência",
-      "Criei um banco de dados SQLite com Prisma",
-      "Organizei e separei tudo em modules, controllers, provides, repositories, dtos"
+      "Desenvolvi uma API em Nest, para aprender sobre os conceitos do framework;",
+      "Apliquei conceitos de Inversão de Dependência e Injeção de Dependência;",
+      "Criei um banco de dados SQLite com Prisma;",
+      "Organizei e separei tudo em modules, controllers, provides, repositories, dtos.",
     ]
   },
   {
@@ -48,12 +81,12 @@ const projects = [
     tags: ["Typescript", "RAG", "IA", "Docker", "Turso", "Firecrawl", "Gemini", "Git", "Embeddings", "Chunks"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/learn-rag",
     topics: [
-      "Desenvolvi lógica para extrair um .md de um site através do FirecrawlApp",
-      "Desenvolvi a logica de quebrar o .md em chunks e trabalhando com chunks overlap",
-      "Gerei os embeddings de cada chunk através do gemini",
-      "Salvei os embeddings, no banco de dados de vetor Turso",
-      "Transformei a busca 'prompt' em embeddings",
-      "Fiz a busca por contexto entre o prompt e os chunks através de similaridade",
+      "Desenvolvi lógica para extrair um .md de um site através do FirecrawlApp;",
+      "Desenvolvi a logica de quebrar o .md em chunks e trabalhando com chunks overlap;",
+      "Gerei os embeddings de cada chunk através do gemini;",
+      "Salvei os embeddings, no banco de dados de vetor Turso;",
+      "Transformei a busca 'prompt' em embeddings;",
+      "Fiz a busca por contexto entre o prompt e os chunks através de similaridade.",
     ]
   },
   {
@@ -62,15 +95,15 @@ const projects = [
     date: "Mar 2026 - Mar 2026",
     imagePath: "/redis.jpg",
     description: "Aprender a utilizar o Redis como cache em Node.js armazenando informações com chave:valor que são frequentemente usadas e não mudam sempre.",
-    tags: ["Node.JS", "Redis", "PostgreSQL (SQL)", "RabbitMQ", "Git","Docker",],
+    tags: ["Node.JS", "Redis", "PostgreSQL", "RabbitMQ", "Git","Docker",],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/learn-redis",
     topics: [
-      "Desenvolvi a criação de um usuário",
-      "Configurei Docker para subir o banco de dados e redis",
-      "Configurei o Redis para salvar os dados do usuario",
-      "Utilizei como chave no redis user-${idUser} e converti o objeto do usuario para string",
-      "Analisei as diferenças entre banco de dados e o redis",
-      "Entendi a diferença entre os tempos de resposta",
+      "Desenvolvi a criação de um usuário;",
+      "Configurei Docker para subir o banco de dados e redis;",
+      "Configurei o Redis para salvar os dados do usuario;",
+      "Utilizei como chave no redis user-${idUser} e converti o objeto do usuario para string;",
+      "Analisei as diferenças entre banco de dados e o redis;",
+      "Entendi a diferença entre os tempos de resposta.",
     ]
   },
   {
@@ -79,15 +112,15 @@ const projects = [
     date: "Fev 2026 - Fev 2026",
     imagePath: "/microservices.png",
     description: "Construção de dois microsserviços independentes, integração entre serviços com comunicação assíncrona utilizando RabbitMQ, PostgreSQL, aplicação dos conceitos de consistência eventual e replicação de dados entre microsserviços, observabilidade com Grafana utilizando técnicas de logging estruturado e tracing distribuído e deploy com AWS Fargate através do Pulumi.",
-    tags: ["Node.JS", "PostgreSQL (SQL)", "RabbitMQ", "Grafana", "Jaeger", "Pulimi", "AWS", "Git", "Github", "Drizzle", "Docker", "Github Actions"],
+    tags: ["Node.JS", "PostgreSQL", "RabbitMQ", "Grafana", "Jaeger", "Pulimi", "AWS", "Git", "Github", "Drizzle", "Docker", "Github Actions"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/desafio-microsservicos-escalaveis-nodejs",
     topics: [
-      "Desenvolvi microsserviços independentes com comunicação assíncrona via RabbitMQ.",
-      "Configurei Docker para subir o banco de dados e rabbitmq",
-      "Apliquei persistência em PostgreSQL com Drizzle.",
-      "Implementei Migrations no banco de dados",
-      "Implementei observabilidade com Grafana e Jaeger (logging e tracing)",
-      "Automatizei o deploy na AWS Fagete via Pulumi",
+      "Desenvolvi microsserviços independentes com comunicação assíncrona via RabbitMQ;",
+      "Configurei Docker para subir o banco de dados e rabbitmq;",
+      "Apliquei persistência em PostgreSQL com Drizzle;",
+      "Implementei Migrations no banco de dados;",
+      "Implementei observabilidade com Grafana e Jaeger (logging e tracing);",
+      "Automatizei o deploy na AWS Fagete via Pulumi.",
     ]
   },
   {
@@ -96,16 +129,16 @@ const projects = [
     date: "Fev 2025 - Dez 2025",
     imagePath: "/dumble.png",
     description: "Centraliza o ensino para fortalecer o vínculo professor-aluno, com questões focadas no material do professor. Com IA com acesso ao material do professor para sugestões de perguntas e responder duvidas.\n🎖️ Projeto publicado no Congresso Nacional CONAIDUC.",
-    tags: ["IA", "Node.JS", "React.JS", "PostgreSQL (SQL)", "RAG", "JWT", "Heroku", "Git", "tailwind-css", "shadcn-ui"],
+    tags: ["IA", "Node.JS", "React.JS", "PostgreSQL", "RAG", "JWT", "Heroku", "Git", "tailwind-css", "shadcn-ui"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares",
     deployUrl: "https://dumble.onrender.com/",
     topics: [
-      "Desenvolvi a parte da IA com RAG, onde os professores anexavam arquivos e o conteudo deles eram disponibilizados para a IA.",
-      "Construi os prompts rigorosos e estruturados de IA, para o chat-bot e a sugestão de perguntas.",
-      "Desenvolvi o front-end de maneira responsiva.",
-      "Implementei autenticação de usuários via tokens JWT.",
-      "Gerenciei o banco de dados SQL.",
-      "Administrei e realizei o deploy (hospedagem)."
+      "Desenvolvi a parte da IA com RAG, onde os professores anexavam arquivos e o conteudo deles eram disponibilizados para a IA;",
+      "Construi os prompts rigorosos e estruturados de IA, para o chat-bot e a sugestão de perguntas;",
+      "Desenvolvi o front-end de maneira responsiva;",
+      "Implementei autenticação de usuários via tokens JWT;",
+      "Gerenciei o banco de dados SQL;",
+      "Administrei e realizei o deploy (hospedagem).",
     ]
   },
   {
@@ -118,12 +151,12 @@ const projects = [
     repoUrl: "https://github.com/Lucas-Pontes-Soares/avanti-intelligence",
     deployUrl: "https://avanti-intelligence.onrender.com/",
     topics: [
-      "Desenvolvemos a IA, modelo, treinando através de um dataset real de imagens de raio-x de torax.",
-      "Fizemos o treinamento da CNN de maneira supervisionada.",
-      "Analisamos o resultados e conseguimos obter 90% de acerto quando o paciente tinha a doença.",
-      "Implementei autenticação de usuários via tokens JWT.",
-      "Aplicamos o conceito de separar e treinamento, validação, teste.",
-      "Desenvolvi o nosso site para apresentar nosso projeto, e importei o modelo para testes."
+      "Desenvolvemos a IA, modelo, treinando através de um dataset real de imagens de raio-x de torax.;",
+      "Fizemos o treinamento da CNN de maneira supervisionada.;",
+      "Analisamos o resultados e conseguimos obter 90% de acerto quando o paciente tinha a doença.;",
+      "Implementei autenticação de usuários via tokens JWT.;",
+      "Aplicamos o conceito de separar e treinamento, validação, teste.;",
+      "Desenvolvi o nosso site para apresentar nosso projeto, e importei o modelo para testes.",
     ],
   },
   {
@@ -135,12 +168,12 @@ const projects = [
     tags: ["Docker", "DockerHub", "CI", "CD", "Github", "Git", "Github Actions", "Azure", "Kubernetes"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/atividade-interdisciplinar-kubernetes",
     topics: [
-      "Versionei o código no Github.",
-      "Configurei o Docker para empacotar o site junto com o servidor Nginx.",
-      "Publiquei a imagem no Docker Hub.",
-      "Implementei CI, com Github Actions, para verificar o código a cada push, inspecionando todo o HTML e CSS.",
-      "Configurei o Kubernetes na Azure (AKS) para rodar com 2 pods.",
-      "Hospedei os site com docker utilizano Kubernetes na Azure."
+      "Versionei o código no Github.;",
+      "Configurei o Docker para empacotar o site junto com o servidor Nginx.;",
+      "Publiquei a imagem no Docker Hub.;",
+      "Implementei CI, com Github Actions, para verificar o código a cada push, inspecionando todo o HTML e CSS.;",
+      "Configurei o Kubernetes na Azure (AKS) para rodar com 2 pods.;",
+      "Hospedei os site com docker utilizano Kubernetes na Azure.",
     ],
   },
   {
@@ -152,11 +185,11 @@ const projects = [
     tags: ["Docker", "build", "HTML", "CSS", "CI", "Github", "Git", "Github Actions", "Github Pages"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/mini-site-docker",
     topics: [
-      "Desenvolvi o Front-end, que abordam sobre o Docker.",
-      "Implementei Integração Continua (CI) com Github Actions.",
-      "Configurei o Docker para build e Docker compose para desenvolvimento.",
-      "Automatizei para a cada push ou pull request, seja executado o projeto e construido para ser testado de forma consistente.",
-      "Hospedei o site através do Github Pages."
+      "Desenvolvi o Front-end, que abordam sobre o Docker.;",
+      "Implementei Integração Continua (CI) com Github Actions.;",
+      "Configurei o Docker para build e Docker compose para desenvolvimento.;",
+      "Automatizei para a cada push ou pull request, seja executado o projeto e construido para ser testado de forma consistente.;",
+      "Hospedei o site através do Github Pages.",
     ],
   },
   {
@@ -168,9 +201,9 @@ const projects = [
     tags: ["Python", "IA", "Árvore de Decisão"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/wine-quality",
     topics: [
-      "Treinamos um modelo através de um dataset supervisioado.",
-      "Utilizamos algoritmos de Árvore de Decisão",
-      "Passamos por todas as etapas para construir um modelo, treinamento, validações, testes, avaliação."
+      "Treinamos um modelo através de um dataset supervisioado.;",
+      "Utilizamos algoritmos de Árvore de Decisão;",
+      "Passamos por todas as etapas para construir um modelo, treinamento, validações, testes, avaliação.",
     ],
   },
   {
@@ -182,10 +215,10 @@ const projects = [
     tags: ["Python", "Busca cega", "Navegação"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/wine-quality",
     topics: [
-      "Desenvolvemos um algoritmo que utiliza o conceito de método de busca cega (largura).",
-      "Desenvolvemos uma lógica para gerar labirintos aleatórios que são possíveis de resolver.",
-      "Implementamos uma visualização do labirinto sendo descoberto.",
-      "Observamos em prática como funciona navegação da busca em largura."
+      "Desenvolvemos um algoritmo que utiliza o conceito de método de busca cega (largura);",
+      "Desenvolvemos uma lógica para gerar labirintos aleatórios que são possíveis de resolver;",
+      "Implementamos uma visualização do labirinto sendo descoberto;",
+      "Observamos em prática como funciona navegação da busca em largura.",
     ],
   },
   {
@@ -196,11 +229,11 @@ const projects = [
     description: "Na FATEC Ourinhos eu e minha turma, desenvolvemos um projeto para a Assistente Social da prefeitura de Canitar, nas disciplinas de Engenharia de Software e Banco de Dados. ",
     tags: ["Banco de Dados", "SQL", "Análise de Requisitos"],
     topics: [
-      "Criamos toda a ideia do projeto, como funcionaria.",
-      "Fizemos vários diagramas (casos de uso, dicionário de dados, de classes, de atividades).",
-      "Construímos protótipos.",
-      "Criamos o banco de dados em SQL, com todas as tabelas e relacionamentos.",
-      "Fizemos a importação dos dados que estavam em uma planilha do excel."
+      "Criamos toda a ideia do projeto, como funcionaria;",
+      "Fizemos vários diagramas (casos de uso, dicionário de dados, de classes, de atividades);",
+      "Construímos protótipos;",
+      "Criamos o banco de dados em SQL, com todas as tabelas e relacionamentos;",
+      "Fizemos a importação dos dados que estavam em uma planilha do excel.",
     ],
   },
   {
@@ -211,11 +244,11 @@ const projects = [
     description: "Na FATEC Ourinhos e mais alguns colegas, organizamos e ministramos um minicurso sobre robocode aos alunos (uma plataforma para construir robos, tanques, virtuais para batalhar) ensinamos como programar, e no final organizamos um campeonato entre os alunos.",
     tags: ["Arduino", "Robocode", "Minicurso"],
     topics: [
-      "Ministrei para os alunos sobre a plataforma. ",
-      "Criamos um robô juntos, explicando sobre o código, mostramos exemplos.",
-      "Expliquei na prática como desenvolver nessa ferramenta.",
-      "Criamos o banco de dados em SQL, com todas as tabelas e relacionamentos.",
-      "Organizamos no final um campeonato entre os alunos disputando os melhores robôs desenvolvidos por eles."
+      "Ministrei para os alunos sobre a plataforma.;",
+      "Criamos um robô juntos, explicando sobre o código, mostramos exemplos;",
+      "Expliquei na prática como desenvolver nessa ferramenta;",
+      "Criamos o banco de dados em SQL, com todas as tabelas e relacionamentos;",
+      "Organizamos no final um campeonato entre os alunos disputando os melhores robôs desenvolvidos por eles.",
     ],
   },
   {
@@ -228,11 +261,11 @@ const projects = [
     description: "O GPLink é um sistema web para o público gamer, com o objetivo de transformar a experiência de todos. Com a funcionalide de unir os diferentes perfis dos jogadores (Xbox, Steam, Playstation) em apenas um lugar, mostrar suas conquistas, jogos, através das APIs",
     tags: ["React.JS", "Node.JS", "MongoDB", "API"],
     topics: [
-      "Integrei o sistema com 3 diferentes plataformas Xbox, Steam e Playstation, através de apis e bibliotecas, trabalhando com paginação.",
-      "Desenvolvi o front-end onde exibia as informações dos perfis das 3 plataformas.",
-      "Utilizei autenticação via tokens JWT.",
-      "Gerenciei o banco de dados no mongoDB, noSQL.",
-      "Trabalhei de forma full-stack."
+      "Integrei o sistema com 3 diferentes plataformas Xbox, Steam e Playstation, através de apis e bibliotecas, trabalhando com paginação;",
+      "Desenvolvi o front-end onde exibia as informações dos perfis das 3 plataformas;",
+      "Utilizei autenticação via tokens JWT;",
+      "Gerenciei o banco de dados no mongoDB, noSQL;",
+      "Trabalhei de forma full-stack.",
     ],
   },
   {
@@ -244,9 +277,9 @@ const projects = [
     description: "Este projeto foi desenvolvido na matéria de Sistemas Embarcados, consiste em uma cancela, controlada por servo motor que pode ser levantada/abaixada por botões e por bluetooth com leds e som para sinalização.",
     tags: ["Arduino", "C", "Sstemas Embarcados"],
     topics: [
-      "Fiz o código da lógica da cancela, com botões para simular quando o trem estiver passando.",
-      "Montei o projeto fisico, com leds, sensores, e motores.",
-      "Conectei com bluetooth para controlar a cancela pelo celular."
+      "Fiz o código da lógica da cancela, com botões para simular quando o trem estiver passando;",
+      "Montei o projeto fisico, com leds, sensores, e motores;",
+      "Conectei com bluetooth para controlar a cancela pelo celular.",
     ],
   },
   {
@@ -258,10 +291,10 @@ const projects = [
     description: "Contruindo um sistema que consome API do GPT, para fornecer titulos e descrição de um vídeo do youtube, com base na sua transcição de audio para texto.",
     tags: ["React.JS", "Node.JS", "IA", "shadcn-ui"],
     topics: [
-      "Fiz a interface shadcn-ui",
-      "Desenvolvi a logica para fazer a transcição do vídeo.",
-      "Construi o prompt e configurei a IA, para respeitar a estrutura.",
-      "Forneci a transcrição do video para a IA, para gerar os títulos e descrições com foco em performance."
+      "Fiz a interface shadcn-ui;",
+      "Desenvolvi a logica para fazer a transcição do vídeo;",
+      "Construi o prompt e configurei a IA, para respeitar a estrutura;",
+      "Forneci a transcrição do video para a IA, para gerar os títulos e descrições com foco em performance.",
     ],
   },
   {
@@ -273,9 +306,9 @@ const projects = [
     description: "Angular: ciclo de vida. Um projeto com CRUD completo de lista de compras.",
     tags: ["Angular", "Front-end"],
     topics: [
-      "Desenvolvi o front-end com Angular.",
-      "Armazenei a lista de compras no local-storage.",
-      "Fiz a logica para gerenciar as compras."
+      "Desenvolvi o front-end com Angular;",
+      "Armazenei a lista de compras no local-storage;",
+      "Fiz a logica para gerenciar as compras.",
     ],
   },
   {
@@ -287,9 +320,9 @@ const projects = [
     description: "Projeto angular para aplicar os conceitos e desenvolver CRUD em Angular 14. Um projeto com CRUD completo de pensamentos, citações ou músicas.",
     tags: ["Angular", "Front-end"],
     topics: [
-      "Desenvolvi o front-end com Angular.",
-      "Armazenei os dados no local-storage.",
-      "Fiz a logica para gerenciar os pensamentos, citações, música."
+      "Desenvolvi o front-end com Angular;",
+      "Armazenei os dados no local-storage;",
+      "Fiz a logica para gerenciar os pensamentos, citações, música.",
     ],
   },
   {
@@ -301,9 +334,9 @@ const projects = [
     description: "Angular: formulários orientados a templates. Um projeto com para preenchimento de formulário com restrições e diretivas, utiliznado a API para trazer dados do endereço com o CEP.",
     tags: ["Angular", "Front-end"],
     topics: [
-      "Desenvolvi o front-end com Angular.",
-      "Desenvolvi preenchimento do formulário com restrições.",
-      "Implementei API para preeencher dados automaticamente com CEP."
+      "Desenvolvi o front-end com Angular;",
+      "Desenvolvi preenchimento do formulário com restrições;",
+      "Implementei API para preeencher dados automaticamente com CEP.",
     ],
   },
   {
@@ -315,9 +348,9 @@ const projects = [
     description: "Projeto de notas, utilizando vite, typescript, tailwindCSS, SpeechRecognitionAPI. Possui funcionalidades de criar notas, tanto por texto tanto por fala, procurar por nota e excluir.",
     tags: ["React.JS", "Front-end", "Typescript"],
     topics: [
-      "Desenvolvi o front-end com React.JS.",
-      "Utilizei classes css através do tailwindcss.",
-      "Desenvolvi funcionalidade de criar uma nota apartir da fala, ou digitando."
+      "Desenvolvi o front-end com React.JS;",
+      "Utilizei classes css através do tailwindcss;",
+      "Desenvolvi funcionalidade de criar uma nota apartir da fala, ou digitando.",
     ],
   },
   {
@@ -329,9 +362,9 @@ const projects = [
     description: "Projeto em ReactJS, vite, com tailwindCSS, para um sistema de blogs de artigos, com uma home principal para visualizar todos os artigos, ao passar o cursor por cima, verá a descrição, clique para ler completamente. Criar artigos com determinadas sessões.",
     tags: ["React.JS", "Front-end", "Typescript"],
     topics: [
-      "Desenvolvi o front-end com React.JS.",
-      "Armazenei os dados dos Artigos em localstorage.",
-      "Fiz a tela principal para criar um artigo de forma estruturada, com titulo, subtitulo, imagem de capa, conteúdo."
+      "Desenvolvi o front-end com React.JS;",
+      "Armazenei os dados dos Artigos em localstorage;",
+      "Fiz a tela principal para criar um artigo de forma estruturada, com titulo, subtitulo, imagem de capa, conteúdo.",
     ],
   },
   {
@@ -343,9 +376,9 @@ const projects = [
     description: "Um sistema de gerenciamento de matricula para a matéria de gestão agil de projetos da faculdade. 2 Usuários: Aluno pode ver cursos, e realizar matricula. Professor pode ver extrato dos alunos, e receber email das matriculas.",
     tags: ["React.JS", "Node.JS", "API", "SQL", "MYSQL"],
     topics: [
-      "Desenvolvi o back-end com Node.JS.",
-      "Gerenciei o banco de dados SQL.",
-      "Construi as queries SQLS do backend."
+      "Desenvolvi o back-end com Node.JS;",
+      "Gerenciei o banco de dados SQL;",
+      "Construi as queries SQLS do backend.",
     ],
   },
   {
@@ -357,10 +390,10 @@ const projects = [
     description: "Trabalho final para a matéria de programação mobile da faculdade, desenvolvido em flutter no flutlab, com api através do mockapi, para armazenar os personagens. Visualização de personagens, detalhes, adicionar de uma lista.",
     tags: ["Flutter", "Front-end", "API"],
     topics: [
-      "Desenvolvi através do mockapi a API.",
-      "Estruturei todos os dados que os personagens vão ter.",
-      "Construi api para visualizar todos os personagens e para filtrar.",
-      "Fiz o front-end com flutter para consumir essa API."
+      "Desenvolvi através do mockapi a API;",
+      "Estruturei todos os dados que os personagens vão ter;",
+      "Construi api para visualizar todos os personagens e para filtrar;",
+      "Fiz o front-end com flutter para consumir essa API.",
     ],
   },
   {
@@ -372,9 +405,9 @@ const projects = [
     description: "Site para melhorar a sua mira atirando em alvos gerados aleatoriamente, no final é exibido quantos alvos acertou e quantos errou.",
     tags: ["Front-end", "Javascript", "HTML", "CSS"],
     topics: [
-      "Desenvolvi a lógica dos alvos gerando aleatoriamente com javascript",
-      "Fiz a lógica do conômetro para o usuario escolher quanto tempo quer jogar.",
-      "Desenvolvi a lógica de reiniciar os pontos no final para começar denovo"
+      "Desenvolvi la lógica dos alvos gerando aleatoriamente com javascript;",
+      "Fiz a lógica do conômetro para o usuario escolher quanto tempo quer jogar;",
+      "Desenvolvi a lógica de reiniciar os pontos no final para começar denovo.",
     ],
   },
   {
@@ -386,9 +419,9 @@ const projects = [
     description: "Jogo da forca desenvolvido em C++, o usuario escolhe o tema da palavra secreta e digita a palavra secreta. Quem for adivinhar tem 6 chances, a cada erro o boneco é desenhado.",
     tags: ["C++"],
     topics: [
-      "Desenvolvi a lógica do jogo da forca, indentificando quais letras a palavra possue.",
-      "Construi a parte visual no terminal mesmo.",
-      "Desenvolvi a lógica de desenhar o boneco a cada erro."
+      "Desenvolvi a lógica do jogo da forca, indentificando quais letras a palavra possue;",
+      "Construi a parte visual no terminal mesmo;",
+      "Desenvolvi a lógica de desenhar o boneco a cada erro.",
     ],
   },
   {
@@ -400,9 +433,9 @@ const projects = [
     description: "Das matérias de PW, BD, APS. Nosso sistema conta com área do cliente para montar o seu café com etapas, visualizar histórico de pedidos. Área de admin com kanban dos pedidos (análise, em produção, em entrega), edição dos complementos.",
     tags: ["PHP", "HTML", "CSS", "SQL", "MYSQL"],
     topics: [
-      "Gerenciei o banco de dados e as consultas SQLs.",
-      "Construi a logica do backend com PHP.",
-      "Construi a área de admin, com o kanban dos pedidos, arrastandos para cada etapa (análise, em produção, em entrega)."
+      "Gerenciei o banco de dados e as consultas SQLs;",
+      "Construi a logica do backend com PHP;",
+      "Construi a área de admin, com o kanban dos pedidos, arrastandos para cada etapa (análise, em produção, em entrega).",
     ],
   },
   {
@@ -414,9 +447,9 @@ const projects = [
     description: "Projeto que construimos uma janela automática com esp-32, motores e sensores. Com sensores de chuva, temperatura, claridade, definimos quando a janela fecha e abre. Utilizando o protocolo MQQT para ter controle em um aplicativo externo, e visualizar gráficos dos dados capturados.",
     tags: ["Arduino", "ESP-32", "MQTT", "Python"],
     topics: [
-      "Fiz o código da janela, coletando os dados dos sensores e abrindo e fechando a janela.",
-      "Desenvolvi a janela em 3 partes, vidro, persiana e veneziana, as 3 partes se fecham ou abrem de maneiras diferentes e momentos diferentes.",
-      "Desenvolvi a exportação dos dados com MQTT para exibir em um aplicativo dados captados pelos sensores em forma de gráfco."
+      "Fiz o código da janela, coletando os dados dos sensores e abrindo e fechando a janela;",
+      "Desenvolvi a janela em 3 partes, vidro, persiana e veneziana, as 3 partes se fecham ou abrem de maneiras diferentes e momentos diferentes;",
+      "Desenvolvi a exportação dos dados com MQTT para exibir em um aplicativo dados captados pelos sensores em forma de gráfco.",
     ],
   },
   {
@@ -427,9 +460,9 @@ const projects = [
     description: "Durante os anos na faculdade, participei das maratonas de programação como InterFatecs, na qual resolviamos uma seríe de problemas em C. Competindo com outros alunos de outras turmas, com exercicios bem desafiadores que precisavam ser criativos para resolver.",
     tags: ["C", "Lógica", "Maratona"],
     topics: [
-      "Trabalhamos em Equipe para resolver os exercícios.",
-      "Desenvolvi boas lógicas de programação em C para resolver os problemas.",
-      "Analisei os enunciados e capturei as informações principais para desenvolver o primeiro esboço."
+      "Trabalhamos em Equipe para resolver os exercícios;",
+      "Desenvolvi boas lógicas de programação em C para resolver os problemas;",
+      "Analisei os enunciados e capturei as informações principais para desenvolver o primeiro esboço.",
     ],
   },
 ]
