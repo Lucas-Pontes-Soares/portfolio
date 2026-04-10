@@ -3,9 +3,9 @@ import { SkillBadge } from "@/components/skill-badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { BR, ES, US } from "country-flag-icons/react/3x2";
 import { File, LucideFileJson } from "lucide-react";
-import { FaAngular, FaArrowsAlt, FaBrain, FaCheck, FaClipboardList, FaCode, FaComment, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGitAlt, FaHtml5, FaJava, FaJs, FaLightbulb, FaMicrochip, FaMobileAlt, FaNodeJs, FaPalette, FaPhp, FaPlay, FaProjectDiagram, FaPython, FaReact, FaSitemap, FaTasks, FaThLarge, FaUsers, FaWordpress, FaWrench } from "react-icons/fa";
+import { FaAngular, FaArrowsAlt, FaBrain, FaCheck, FaClipboardList, FaCode, FaComment, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGitAlt, FaHtml5, FaJava, FaJs, FaLightbulb, FaMicrochip, FaMobileAlt, FaNodeJs, FaPalette, FaPhp, FaPlay, FaProjectDiagram, FaPython, FaReact, FaSitemap, FaTasks, FaThLarge, FaUsers, FaWordpress, FaWrench, FaVial, FaCubes, FaShapes, FaShieldAlt } from "react-icons/fa";
 import { GiFamilyTree } from 'react-icons/gi';
-import { SiEspressif, SiGooglegemini, SiGrafana, SiMongodb, SiNestjs, SiOpenai, SiPostgresql, SiRabbitmq, SiRedis, SiTypescript } from "react-icons/si";
+import { SiEspressif, SiGooglegemini, SiGrafana, SiMongodb, SiNestjs, SiOpenai, SiPostgresql, SiRabbitmq, SiRedis, SiTypescript, SiVitest } from "react-icons/si";
 
 export default function Home() {
 
@@ -63,6 +63,7 @@ export default function Home() {
                     <SkillBadge name="React.JS" icon={FaReact} />
                     <SkillBadge name="Angular" icon={FaAngular} />
                     <SkillBadge name="Flutter" icon={FaMobileAlt} />
+                    <SkillBadge name="Vitest" icon={SiVitest} />
                     <SkillBadge name="WordPress" icon={FaWordpress} />
                   </div>
                 </div>
@@ -128,6 +129,10 @@ export default function Home() {
                 <div>
                   <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">Conceitos:</h3>
                   <div className="flex flex-wrap gap-2">
+                    <SkillBadge name="Testes (Unitários, Integração, E2E)" icon={FaVial} />
+                    <SkillBadge name="SOLID" icon={FaCubes} />
+                    <SkillBadge name="POO" icon={FaShapes} />
+                    <SkillBadge name="Roles (RBAC/ABAC)" icon={FaShieldAlt} />
                     <SkillBadge name="Estrutura de Dados" icon={GiFamilyTree} />
                     <SkillBadge name="Lógica de Programação" icon={FaLightbulb} />
                     <SkillBadge name="Boas Práticas" icon={FaCheck} />

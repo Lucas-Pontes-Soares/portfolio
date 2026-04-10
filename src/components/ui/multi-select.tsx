@@ -24,7 +24,7 @@ export function MultiSelect({
     value,
     onChange,
     className,
-    placeholder = "Selecione as tecnologias",
+    placeholder = "Selecione as Tecnologias ou Tags",
 }: MultiSelectProps) {
     const [isOpen, setIsOpen] = useState(false);
 

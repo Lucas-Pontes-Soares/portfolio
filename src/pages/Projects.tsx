@@ -8,6 +8,22 @@ import { MultiSelect } from "@/components/ui/multi-select";
 
 const projects = [
   {
+    title: "Back-end Node com Testes Unitários, Integração e E2E.",
+    subtitle: "Curso Rocketseat",
+    date: "Abr 2026 - Abr 2026",
+    imagePath: "/node-tests.jpg",
+    description: "Projeto de agendamentos de uma barbearia. Construindo a aplicação de uma maneira isolada, independente de banco de dados, com SOLID. Criando testes unitários através do Vitest, utilizando banco de daods em memória. Construindo um serviço independente.",
+    tags: ["Node.JS", "Typescript", "Git", "Vitest", "Tests", "Unit Tests", "Integration Tests", "E2E Tests", "SOLID", "POO"],
+    repoUrl: "https://github.com/Lucas-Pontes-Soares/node-testable-apps",
+    topics: [
+      "Estudei sobre conceitos de Testes Unitários, de Integração e E2E;",
+      "Utilizei conceitos do SOLID, inversão de dependências e POO;",
+      "Construi um serviço independente de banco de dados, uma aplicação isolada;",
+      "Desenvolvi testes unitários com Vitest no Node.js, para validar dados e datas;",
+      "No teste unitário utilizei banco de dados em memória, criando repositories, ao invés de mock;s",
+    ]
+  },
+  {
     title: "Nest.JS Library API",
     subtitle: "Projeto pessoal de Nest",
     date: "Mar 2026 - Abr 2026",
