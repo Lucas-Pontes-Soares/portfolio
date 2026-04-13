@@ -8,6 +8,22 @@ import { MultiSelect } from "@/components/ui/multi-select";
 
 const projects = [
   {
+    title: "Submissão Artigo na Revista InterAgro!",
+    subtitle: "Estação Agroclimática Inteligente baseada em IoT e MQTT",
+    date: "Set 2025 - Abr 2026",
+    imagePath: "/interAgro.jpg",
+    description: "Trabalho publicado na Revista InterAgro,  desenvolver e implementar uma estação agroclimática inteligente, utilizando a placa ESP32 e sensores capazes de medir temperatura, umidade e luminosidade, de modo a disponibilizar os dados coletados por meio do protocolo de mensagens MQTT. \n 🎖️ Projeto publicado na Revista InterAgro 2025 v. 3 n. 1.",
+    tags: ["ESP-32", "Python", "Arduino", "Agro", "Revista", "InterAgro", "WOKWI"],
+    repoUrl: "https://github.com/Lucas-Pontes-Soares/estacao-agroclimatica-inteligente",
+    articleUrl: "https://publicacoescgesg.cps.sp.gov.br/interagro/article/view/888",
+    topics: [
+      "Estudei sobre o protocolo MQTT;",
+      "Desenvolvi e modelei a estrutura física do ESP-32 no WOKWI;",
+      "Programei a lógica de captura de dados e mensageria;",
+      "Configurei o envio/recibo das notificações e alertas das mensagens no MQTT."
+    ]
+  },
+  {
     title: "Back-end Node com Testes Unitários, Integração e E2E.",
     subtitle: "Curso Rocketseat",
     date: "Abr 2026 - Abr 2026",
@@ -20,7 +36,7 @@ const projects = [
       "Utilizei conceitos do SOLID, inversão de dependências e POO;",
       "Construi um serviço independente de banco de dados, uma aplicação isolada;",
       "Desenvolvi testes unitários com Vitest no Node.js, para validar dados e datas;",
-      "No teste unitário utilizei banco de dados em memória, criando repositories, ao invés de mock;s",
+      "No teste unitário utilizei banco de dados em memória, criando repositories, ao invés de mocks;",
     ]
   },
   {

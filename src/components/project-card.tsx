@@ -15,10 +15,10 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { Github, Monitor, TableOfContents, VectorSquare } from "lucide-react";
+import { BookOpen, Github, Monitor, TableOfContents, VectorSquare } from "lucide-react";
 import ReactPlayer from 'react-player'
 import { SkillBadge } from "./skill-badge";
-import { FaAngular, FaBroadcastTower, FaBrain, FaChalkboardTeacher, FaClipboardList, FaCode, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGithub, FaGitAlt, FaHtml5, FaLightbulb, FaMicrochip, FaNodeJs, FaPaintBrush, FaPhp, FaPlay, FaPython, FaQuestionCircle, FaReact, FaRobot, FaRocket, FaRunning, FaSearchMinus, FaSitemap, FaSync, FaUsers, FaWrench, FaJs, FaAws, FaFire, FaUserShield, FaShieldAlt, FaLock, FaPencilAlt, FaNetworkWired, FaVial, FaVials, FaCubes, FaShapes } from "react-icons/fa";
+import { FaAngular, FaBroadcastTower, FaBrain, FaChalkboardTeacher, FaClipboardList, FaCode, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGithub, FaGitAlt, FaHtml5, FaLightbulb, FaMicrochip, FaNodeJs, FaPaintBrush, FaPhp, FaPlay, FaPython, FaQuestionCircle, FaReact, FaRobot, FaRocket, FaRunning, FaSearchMinus, FaSitemap, FaSync, FaUsers, FaWrench, FaJs, FaAws, FaFire, FaUserShield, FaShieldAlt, FaLock, FaPencilAlt, FaNetworkWired, FaVial, FaVials, FaCubes, FaShapes, FaLeaf, FaBook, FaNewspaper, FaLaptopCode } from "react-icons/fa";
 import { SiDrizzle, SiFlutter, SiGooglegemini, SiGrafana, SiHeroku, SiJaeger, SiJsonwebtokens, SiKubernetes, SiMongodb, SiMysql, SiNestjs, SiNextdotjs, SiPostgresql, SiPrisma, SiPulumi, SiRabbitmq, SiSqlite, SiTailwindcss, SiTurso, SiTypescript, SiMui, SiVitest } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 import { type IconType } from "react-icons";
@@ -35,6 +35,7 @@ interface ProjectCardProps {
   deployUrl?: string;
   videoUrl?: string;
   date?: string; 
+  articleUrl?: string;
 }
 
 const iconMapping: { [key: string]: IconType } = {
@@ -74,6 +75,10 @@ const iconMapping: { [key: string]: IconType } = {
   "MongoDB": SiMongodb,
   "API": FaExchangeAlt,
   "Arduino": FaMicrochip,
+  "Agro": FaLeaf,
+  "Revista": FaBook,
+  "InterAgro": FaNewspaper,
+  "WOKWI": FaLaptopCode,
   "C": FaCode,
   "Sstemas Embarcados": FaMicrochip,
   "Angular": FaAngular,
@@ -135,6 +140,7 @@ export function ProjectCard({
   deployUrl,
   videoUrl,
   date,
+  articleUrl,
 }: ProjectCardProps) {
   return (
     <Card className="w-120 max-w-full flex flex-col">
@@ -145,9 +151,9 @@ export function ProjectCard({
           </div>
         </div>
         <CardTitle>{title}</CardTitle>
-        <CardDescription className="flex justify-between items-center text-muted-foreground">
-            <span>{subtitle}</span>
-            {date && <span>{date}</span>}
+        <CardDescription className="flex justify-between items-start gap-4 text-muted-foreground">
+            <span className="flex-1">{subtitle}</span>
+            {date && <span className="whitespace-nowrap shrink-0">{date}</span>}
         </CardDescription>
       </CardHeader>
       <CardContent className="flex-1 max-h-64">
@@ -160,6 +166,14 @@ export function ProjectCard({
           ))}
         </div>
         <div className="flex flex-wrap gap-2 border-t-2 w-full justify-center pt-4">
+          {articleUrl && (
+            <Button variant="outline" asChild className="cursor-pointer">
+              <a href={articleUrl} target="_blank" rel="noopener noreferrer">
+                <BookOpen className="mr-2 h-4 w-4" />
+                Revista
+              </a>
+            </Button>
+          )}
           {deployUrl && (
             <Button variant="outline" asChild className="cursor-pointer">
               <a href={deployUrl} target="_blank" rel="noopener noreferrer">
