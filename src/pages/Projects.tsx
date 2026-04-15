@@ -8,6 +8,22 @@ import { MultiSelect } from "@/components/ui/multi-select";
 
 const projects = [
   {
+    title: "RabbitMQ: Queues, Exchanges, DLQ",
+    subtitle: "Projeto pessoal para aprender sobre RabbitMQ",
+    date: "Abr 2026 - Abr 2026",
+    imagePath: "/learn-rabbitmq.png",
+    description: "Projeto pessoal de estudos, criando um sistema de microserviços e-commerce, com microserviços diferentes: order, inventory, notification, payment. Para aprender sobre Queues, Exchanges, estratégias de resiliência como DLQ, aprender sobre Wildcards, Ack, Nack, e a filosofia do 'Se eu preciso, eu garanto' do Assert.",
+    tags: ["RabbitMQ", "Node.JS", "Docker", "Queues", "Exchanges", "DLQ"],
+    repoUrl: "https://github.com/Lucas-Pontes-Soares/learn-rabbitmq",
+    topics: [
+      "Estudei sobre os conceitos do RabbitMQ;",
+      "Desenvolvi os microserviços separadamente, cada um com sua função;",
+      "Desenvolvi o publicador e os consumidores das mensagens;",
+      "Fiz a lógica do DLQ, simulando um erro, para jogar em uma fila de erros;",
+      "Utilizei Exchanges, de maneira que as mensagens nunca vão direto para a fila."
+    ]
+  },
+  {
     title: "Submissão Artigo na Revista InterAgro!",
     subtitle: "Estação Agroclimática Inteligente baseada em IoT e MQTT",
     date: "Set 2025 - Abr 2026",
