@@ -8,7 +8,7 @@ import { MultiSelect } from "@/components/ui/multi-select";
 
 const projects = [
   {
-    title: "RabbitMQ: Queues, Exchanges, DLQ",
+    title: "RabbitMQ: Queues, Exchanges e DLQ",
     subtitle: "Projeto pessoal para aprender sobre RabbitMQ",
     date: "Abr 2026 - Abr 2026",
     imagePath: "/learn-rabbitmq.png",
@@ -52,7 +52,7 @@ const projects = [
       "Utilizei conceitos do SOLID, inversão de dependências e POO;",
       "Construi um serviço independente de banco de dados, uma aplicação isolada;",
       "Desenvolvi testes unitários com Vitest no Node.js, para validar dados e datas;",
-      "No teste unitário utilizei banco de dados em memória, criando repositories, ao invés de mocks;",
+      "No teste unitário utilizei banco de dados em memória, criando repositories, ao invés de mocks.",
     ]
   },
   {
@@ -160,7 +160,7 @@ const projects = [
     date: "Fev 2026 - Fev 2026",
     imagePath: "/microservices.png",
     description: "Construção de dois microsserviços independentes, integração entre serviços com comunicação assíncrona utilizando RabbitMQ, PostgreSQL, aplicação dos conceitos de consistência eventual e replicação de dados entre microsserviços, observabilidade com Grafana utilizando técnicas de logging estruturado e tracing distribuído e deploy com AWS Fargate através do Pulumi.",
-    tags: ["Node.JS", "PostgreSQL", "RabbitMQ", "Grafana", "Jaeger", "Pulimi", "AWS", "Git", "Github", "Drizzle", "Docker", "Github Actions"],
+    tags: ["Node.JS", "PostgreSQL", "RabbitMQ", "Grafana", "Jaeger", "Pulimi", "AWS", "Git", "Github", "Drizzle", "Docker", "Github Actions", "CI", "CD"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/desafio-microsservicos-escalaveis-nodejs",
     topics: [
       "Desenvolvi microsserviços independentes com comunicação assíncrona via RabbitMQ;",

@@ -103,7 +103,7 @@ export function SheetNavigation({ actuallyPage }: SheetNavigationProps) {
           </div>
           <Button asChild className="hover:cursor-pointer">
             <a 
-                href={`${import.meta.env.BASE_URL}Curriculo - Lucas Pontes Soares - Dev Full Stack Junior.pdf`}
+                href={`${import.meta.env.BASE_URL}Curriculo - Lucas Pontes Soares - Dev Back End Junior.pdf`}
                 target="_blank" 
                 rel="noopener noreferrer"
             >
