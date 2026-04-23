@@ -8,6 +8,36 @@ import { MultiSelect } from "@/components/ui/multi-select";
 
 const projects = [
   {
+    title: "Games Spring",
+    subtitle: "Projeto Java Spring Boot",
+    date: "Jan 2025 - Jan 2025",
+    imagePath: "/games-spring.png",
+    description: "Projeto em Java Spring Boot, com Front-end (JSP) e Back-end, utilizando banco de dados SQL. CRUD de games, com jogo, categoria, plataforma.",
+    tags: ["Java", "Spring Boot", "Gradle", "JSP", "SQL", "Docker", "HTML", "CSS"],
+    repoUrl: "https://github.com/Lucas-Pontes-Soares/games-spring",
+    topics: [
+      "Utilizei docker-compose para subir o banco de dados SQL;",
+      "Trabalhei no Spring Boot com Controllers, Models e Repositories;",
+      "Construi a interface com JSP com o CRUD completo do jogo, categoria e plataforma;",
+      "Trabalhei com rotas e metodos HTTP, parámetros e retornos na API.",
+    ]
+  },
+  {
+    title: "Java com Spring Boot - Curso Introdutório",
+    subtitle: "Curso Rocketseat",
+    date: "Out 2023 - Out 2023",
+    imagePath: "/spring.png",
+    description: "Aprender a desenvolver uma a desenvolver uma API de tarefas usando Java e Spring Boot, criando um To-Do List do zero. Criação de rotas HTTP, validação de parâmetros, integração com banco de dados, autenticação JWT com Spring Security e deploy na plataforma Render.",
+    tags: ["Java", "Spring Boot", "Maven", "JWT", "SQL"],
+    repoUrl: "https://github.com/Lucas-Pontes-Soares/todolist",
+    topics: [
+      "Desenvolvi o CRUD do to-do-list;",
+      "Entendi as estrutura de pacotes e importações de classe no Java;",
+      "Trabalhei com Repository, Controller, Model, Utils;",
+      "Utilizei banco de dados SQL, conceito de ORM.",
+    ]
+  },
+  {
     title: "RabbitMQ: Queues, Exchanges e DLQ",
     subtitle: "Projeto pessoal para aprender sobre RabbitMQ",
     date: "Abr 2026 - Abr 2026",
