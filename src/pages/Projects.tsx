@@ -377,7 +377,7 @@ const projects = [
   },
   {
     title: "Lista de Compras",
-    subtitle: "Projeto do curso da Alura",
+    subtitle: "Projeto de Angular da Alura",
     date: "Jan de 2024 - Jan de 2024",
     imagePath: "/ListaCompras.png",
     repoUrl: "https://github.com/Lucas-Pontes-Soares/ListaCompras",
@@ -391,7 +391,7 @@ const projects = [
   },
   {
     title: "Memoteca",
-    subtitle: "Projeto do curso da Alura",
+    subtitle: "Projeto de Angular da Alura",
     date: "Jan de 2024 - Jan de 2024",
     imagePath: "/memoteca.png",
     repoUrl: "https://github.com/Lucas-Pontes-Soares/memoteca",
@@ -405,7 +405,7 @@ const projects = [
   },
   {
     title: "AluraBooks",
-    subtitle: "Projeto do curso da Alura",
+    subtitle: "Projeto de Angular da Alura",
     date: "Jan de 2024 - Jan de 2024",
     imagePath: "/AluraBooks.png",
     repoUrl: "https://github.com/Lucas-Pontes-Soares/alurabooks",
@@ -521,7 +521,7 @@ const projects = [
     subtitle: "Projeto da Faculdade",
     date: "Set de 2025 - Dez de 2025",
     imagePath: "/janela.png",
-    repoUrl: "https://github.com/Lucas-Pontes-Soares/JanelaAutomatica",
+    repoUrl: "https://github.com/Lucas-Pontes-Soares/JanelaAutofamatica",
     description: "Projeto que construimos uma janela automática com esp-32, motores e sensores. Com sensores de chuva, temperatura, claridade, definimos quando a janela fecha e abre. Utilizando o protocolo MQQT para ter controle em um aplicativo externo, e visualizar gráficos dos dados capturados.",
     tags: ["Arduino", "ESP-32", "MQTT", "Python"],
     topics: [
