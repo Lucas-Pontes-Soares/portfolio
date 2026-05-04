@@ -28,7 +28,7 @@ export default function Home() {
               </CardHeader>
               <CardContent className="flex flex-col gap-3">
                 
-                <p>Olá, sou Desenvolvedor Full-Stack Júnior com quase <strong className="text-green-500">2 anos de experiência</strong> em <strong className="text-green-500">Node.JS</strong>, <strong className="text-green-500">React.JS</strong> e gerenciamento de bancos de dados <strong className="text-green-500">SQL</strong>. <br /> <br />
+                <p>Olá, sou <strong className="text-green-500">Desenvolvedor Full-Stack Júnior</strong> com quase <strong className="text-green-500">2 anos de experiência</strong> em <strong className="text-green-500">Node.JS</strong>, <strong className="text-green-500">React.JS</strong> e gerenciamento de bancos de dados <strong className="text-green-500">SQL</strong>. <br /> <br />
                 Habilidade em automação de processos e desenvolvimento de <strong className="text-green-500">agentes de IA</strong>. <br /> <br />
                 Com o objetivo em especializar em <strong className="text-green-500">Back-end</strong>, busco posição profissional focado em entregar soluções robustas, otimizar processos e contribuir ativamente para o sucesso da equipe.</p>
               </CardContent>
