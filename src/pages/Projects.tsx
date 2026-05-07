@@ -8,6 +8,36 @@ import { MultiSelect } from "@/components/ui/multi-select";
 
 const projects = [
   {
+    title: "Desafio DDD: Sistema CineFlow",
+    subtitle: "Exercicio Prático de DDD",
+    date: "Mai 2026 - Mai 2026",
+    imagePath: "/cineflow.png",
+    description: "Apliquei meus estudos sobre DDD em um exercicio de um sistema de cinema, de gerenciamento de salas. Modelei o aplicando DDD, identificado Entidades, Dominios, Agregadores, Contextos, Objetos de Valor. Cenário criado por IA Gemini, na qual entendi e conversei para definindo a linguagem Ubíqua, e depois corrigindo com IA e meus Estudos.",
+    tags: ["DDD", "Domain", "Value Objects", "Context"],
+    topics: [
+      "Interpretei o cenário e identifiquei as ações e entidades;",
+      "Refleti e defini os domínios e os tipos (principal, gerêrico, auxiliar);",
+      "Defini e identifiquei até onde vai cada dominio, e o que pertence a ele;",
+      "Defini os domínios principais que são o coração, e sem eles o sistema não funciona, e que diferencia ele de concorrentes;",
+      "Defini contextos e refleti sobre microsserviços, e comunicação assyncrona entre eles com RabbitMQ;",
+      "Pensei sobre os Value Object, como assento e dinehiro."
+    ]
+  },
+  {
+    title: "Estudos sobre DDD",
+    subtitle: "Curso do Full Cicle",
+    date: "Abr 2026 - Mai 2026",
+    imagePath: "/video-ddd.jpg",
+    description: "Curso sobre DDD (Domain Drive Design) uma abordade de modelagem de software focada em domínios de negócio complexos para aprender sobre Domínios, Linguagem Ubíqua, Bounded Contexts, Context Map, Arquitetura Contextual, Entidades, Agregadores, Objetos de Valor, Repositórios e Serviços de dominio.",
+    tags: ["DDD", "Domain", "Value Objects", "Context"],
+    topics: [
+      "Entendi que o Domínio é o coração do negócio;",
+      "Entendi sobre os tipos de domínios (principal, genêrico, auxiliar);",
+      "Compreendi como a linguagem Ubíqua é importante, e conversar com o Domain Expert;",
+      "Entendi como delimitar os contextos da aplicação e a fronteira de cada um.",
+    ]
+  },
+  {
     title: "Games Spring",
     subtitle: "Projeto Java Spring Boot",
     date: "Jan 2025 - Jan 2025",
@@ -229,11 +259,11 @@ const projects = [
     repoUrl: "https://github.com/Lucas-Pontes-Soares/avanti-intelligence",
     deployUrl: "https://avanti-intelligence.onrender.com/",
     topics: [
-      "Desenvolvemos a IA, modelo, treinando através de um dataset real de imagens de raio-x de torax.;",
-      "Fizemos o treinamento da CNN de maneira supervisionada.;",
-      "Analisamos o resultados e conseguimos obter 90% de acerto quando o paciente tinha a doença.;",
-      "Implementei autenticação de usuários via tokens JWT.;",
-      "Aplicamos o conceito de separar e treinamento, validação, teste.;",
+      "Desenvolvemos a IA, modelo, treinando através de um dataset real de imagens de raio-x de torax;",
+      "Fizemos o treinamento da CNN de maneira supervisionada;",
+      "Analisamos o resultados e conseguimos obter 90% de acerto quando o paciente tinha a doença;",
+      "Implementei autenticação de usuários via tokens JWT;",
+      "Aplicamos o conceito de separar e treinamento, validação, teste;",
       "Desenvolvi o nosso site para apresentar nosso projeto, e importei o modelo para testes.",
     ],
   },
@@ -246,11 +276,11 @@ const projects = [
     tags: ["Docker", "DockerHub", "CI", "CD", "Github", "Git", "Github Actions", "Azure", "Kubernetes"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/atividade-interdisciplinar-kubernetes",
     topics: [
-      "Versionei o código no Github.;",
-      "Configurei o Docker para empacotar o site junto com o servidor Nginx.;",
-      "Publiquei a imagem no Docker Hub.;",
-      "Implementei CI, com Github Actions, para verificar o código a cada push, inspecionando todo o HTML e CSS.;",
-      "Configurei o Kubernetes na Azure (AKS) para rodar com 2 pods.;",
+      "Versionei o código no Github;",
+      "Configurei o Docker para empacotar o site junto com o servidor Nginx;",
+      "Publiquei a imagem no Docker Hub;",
+      "Implementei CI, com Github Actions, para verificar o código a cada push, inspecionando todo o HTML e CSS;",
+      "Configurei o Kubernetes na Azure (AKS) para rodar com 2 pods;",
       "Hospedei os site com docker utilizano Kubernetes na Azure.",
     ],
   },
@@ -263,10 +293,10 @@ const projects = [
     tags: ["Docker", "build", "HTML", "CSS", "CI", "Github", "Git", "Github Actions", "Github Pages"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/mini-site-docker",
     topics: [
-      "Desenvolvi o Front-end, que abordam sobre o Docker.;",
-      "Implementei Integração Continua (CI) com Github Actions.;",
-      "Configurei o Docker para build e Docker compose para desenvolvimento.;",
-      "Automatizei para a cada push ou pull request, seja executado o projeto e construido para ser testado de forma consistente.;",
+      "Desenvolvi o Front-end, que abordam sobre o Docker;",
+      "Implementei Integração Continua (CI) com Github Actions;",
+      "Configurei o Docker para build e Docker compose para desenvolvimento;",
+      "Automatizei para a cada push ou pull request, seja executado o projeto e construido para ser testado de forma consistente;",
       "Hospedei o site através do Github Pages.",
     ],
   },
@@ -279,7 +309,7 @@ const projects = [
     tags: ["Python", "IA", "Árvore de Decisão"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/wine-quality",
     topics: [
-      "Treinamos um modelo através de um dataset supervisioado.;",
+      "Treinamos um modelo através de um dataset supervisioado;",
       "Utilizamos algoritmos de Árvore de Decisão;",
       "Passamos por todas as etapas para construir um modelo, treinamento, validações, testes, avaliação.",
     ],
@@ -322,7 +352,7 @@ const projects = [
     description: "Na FATEC Ourinhos e mais alguns colegas, organizamos e ministramos um minicurso sobre robocode aos alunos (uma plataforma para construir robos, tanques, virtuais para batalhar) ensinamos como programar, e no final organizamos um campeonato entre os alunos.",
     tags: ["Arduino", "Robocode", "Minicurso"],
     topics: [
-      "Ministrei para os alunos sobre a plataforma.;",
+      "Ministrei para os alunos sobre a plataforma;",
       "Criamos um robô juntos, explicando sobre o código, mostramos exemplos;",
       "Expliquei na prática como desenvolver nessa ferramenta;",
       "Criamos o banco de dados em SQL, com todas as tabelas e relacionamentos;",

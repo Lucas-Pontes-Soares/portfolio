@@ -18,7 +18,7 @@ import { Button } from "@/components/ui/button";
 import { BookOpen, Github, Monitor, TableOfContents, VectorSquare } from "lucide-react";
 import ReactPlayer from 'react-player'
 import { SkillBadge } from "./skill-badge";
-import { FaAngular, FaBroadcastTower, FaBrain, FaChalkboardTeacher, FaClipboardList, FaCode, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGithub, FaGitAlt, FaHtml5, FaJava, FaLightbulb, FaMicrochip, FaNodeJs, FaPaintBrush, FaPhp, FaPlay, FaPython, FaQuestionCircle, FaReact, FaRobot, FaRocket, FaRunning, FaSearchMinus, FaSitemap, FaSync, FaUsers, FaWrench, FaJs, FaAws, FaFire, FaUserShield, FaShieldAlt, FaLock, FaPencilAlt, FaNetworkWired, FaVial, FaVials, FaCubes, FaShapes, FaLeaf, FaBook, FaNewspaper, FaLaptopCode, FaListUl, FaRandom, FaExclamationTriangle } from "react-icons/fa";
+import { FaAngular, FaBroadcastTower, FaBrain, FaChalkboardTeacher, FaClipboardList, FaCode, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGithub, FaGitAlt, FaHtml5, FaJava, FaLightbulb, FaMicrochip, FaNodeJs, FaPaintBrush, FaPhp, FaPlay, FaPython, FaQuestionCircle, FaReact, FaRobot, FaRocket, FaRunning, FaSearchMinus, FaSitemap, FaSync, FaUsers, FaWrench, FaJs, FaAws, FaFire, FaUserShield, FaShieldAlt, FaLock, FaPencilAlt, FaNetworkWired, FaVial, FaVials, FaCubes, FaShapes, FaLeaf, FaBook, FaNewspaper, FaLaptopCode, FaListUl, FaRandom, FaExclamationTriangle, FaLayerGroup, FaGlobe, FaGem, FaObjectGroup } from "react-icons/fa";
 import { SiDrizzle, SiFlutter, SiGooglegemini, SiGrafana, SiGradle, SiHeroku, SiJaeger, SiJsonwebtokens, SiKubernetes, SiMongodb, SiMysql, SiNestjs, SiNextdotjs, SiPostgresql, SiPrisma, SiPulumi, SiRabbitmq, SiSpringboot, SiApachemaven, SiSqlite, SiTailwindcss, SiTurso, SiTypescript, SiMui, SiVitest } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 import { type IconType } from "react-icons";
@@ -39,6 +39,10 @@ interface ProjectCardProps {
 }
 
 const iconMapping: { [key: string]: IconType } = {
+  "DDD": FaLayerGroup,
+  "Domain": FaGlobe,
+  "Value Objects": FaGem,
+  "Context": FaObjectGroup,
   "IA": FaRobot,
   "Node.JS": FaNodeJs,
   "React.JS": FaReact,
