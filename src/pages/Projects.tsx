@@ -8,6 +8,20 @@ import { MultiSelect } from "@/components/ui/multi-select";
 
 const projects = [
   {
+    title: "Estudos sobre TDD",
+    subtitle: "Curso do André Okazaki",
+    date: "Mai 2026 - Mai 2026",
+    imagePath: "/tdd.jpg",
+    description: "Curso sobre TDD (Test Driven Development) uma técnica de desenolvimento de software guiado pelos testes. Na qual trabalhamos com testes (unidade) como uma fase/processo do desenvolvimento, construir o teste primeiro, antes do código. Conceito de red/refactor/green, e focar no resultado esperado.",
+    tags: ["TDD", "Domain", "Value Objects", "Context"],
+    topics: [
+      "Aprendi sobre TDD, o que é, que ele mira nos testes de unidade;",
+      "Entendi que ele foca no resultado esperado, e não como chegar no resultado;",
+      "Entendi a ideia do Test First, Red/Refactor/Green e Baby Stpes, passo por passo, onde testamos primeiro;",
+      "Aprendi que o TDD fala que não devemos fazer que os códigos funcionem de primeira, precisamos refatorar;",
+    ]
+  },
+  {
     title: "Desafio DDD: Sistema CineFlow",
     subtitle: "Exercicio Prático de DDD",
     date: "Mai 2026 - Mai 2026",
@@ -137,13 +151,13 @@ const projects = [
     date: "Mar 2026 - Mar 2026",
     imagePath: "/operator.jpg",
     description: "Cole seu codigo. Leve um roast. DevRoast e um analisador de qualidade de codigo via IA que da uma nota brutalmente honesta de 0 a 10. Melhores práticas de vibe coding, com agentes, MCPs, skills, prompts. ",
-    tags: ["Next.JS", "Node.JS", "IA", "Gemini", "MCP", "Git", "Agentes", "Typescript", "tailwind-css", "Pencil", "Base-ui", "PostgreSQL"],
+    tags: ["Next.JS", "Node.JS", "IA", "Gemini", "Claude Code", "MCP", "Git", "Agentes", "Typescript", "tailwind-css", "Pencil", "Base-ui", "PostgreSQL"],
     repoUrl: "https://github.com/Lucas-Pontes-Soares/devroast",
     topics: [
       "Apliquei melhores práticas de prompts com os agentes;",
-      "Integrei com MCPs, e com skills, para performar ainda mais;",
+      "Integrei o Claude Code com MCPs, e com skills, para performar ainda mais;",
       "Desenvolvi o front-end com Next.JS;",
-      "Desenvolvi o back-end with Node.JS, with PostgreSQL;",
+      "Desenvolvi o back-end com Node.JS, e PostgreSQL;",
       "Fiz a lógica de análisar o código enviado atráves de api do gemini;",
       "Programei a exibição de pontuações, correções e ranqueamento.",
     ]
