@@ -34,7 +34,7 @@ const projects = [
       "Defini e identifiquei até onde vai cada dominio, e o que pertence a ele;",
       "Defini os domínios principais que são o coração, e sem eles o sistema não funciona, e que diferencia ele de concorrentes;",
       "Defini contextos e refleti sobre microsserviços, e comunicação assyncrona entre eles com RabbitMQ;",
-      "Pensei sobre os Value Object, como assento e dinehiro."
+      "Pensei sobre os Value Object, como assento e dinheiro."
     ]
   },
   {

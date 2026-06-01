@@ -49,8 +49,8 @@ export default function Experiences() {
                 expondo através de uma <strong className="text-green-500">API com paginação</strong>;</li>
                 <li>Administrei e realizei o <strong className="text-green-500">deploy (hospedagem)</strong> de sistemas em produção, utilizando protocolos como <strong className="text-green-500">FTP, SFTP</strong> e ferramentas de
                 gerenciamento de servidores;</li>
-                <li>Documentei os sistemas e organizei nossos repositórios utilizando boas práticas de versionamento;</li>
-                <li>Trabalhei com a Metodologia Ágil: <strong className="text-green-500">Kanban</strong>, e com resumos diários sobre o que as tarefas fizemos no período;</li>
+                <li>Desenvolvi um <strong className="text-green-500">chatbot com IA do Gemini</strong>, con <strong className="text-green-500">streaming das respostas</strong> e contexto através de <strong className="text-green-500">RAG</strong>; </li>
+                <li>Trabalhei com a Metodologia Ágil: <strong className="text-green-500">Kanban</strong> no <strong className="text-green-500">Trello</strong>, e com resumos diários sobre o que as tarefas fizemos no período;</li>
                 <li>Implementei <strong className="text-green-500">permissões RBAC e ABAC</strong> para diferentes cargos e hierarquias;</li>
                 <li>Desenvolvi um sistema para emissão de <strong className="text-green-500">Notas Fiscais eletrónicas (NFe)</strong> emitindo direto no <strong className="text-green-500">sistema da Prefeitura de São Paulo</strong>.</li>
               </ul>
