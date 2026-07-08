@@ -32,7 +32,7 @@ export default function AcademicLife() {
                   <CardDescription>Graduado em Análise e Desenvolvimento de Sistemas - AMS</CardDescription>
                 </div>
               </div>
-              <CardAction>
+              <CardAction className="text-zinc-400">
                 <p>Jan 2024 - Dez 2025</p>
                 <p className="text-right">2 anos</p>
               </CardAction>
@@ -82,7 +82,7 @@ export default function AcademicLife() {
                   <CardDescription>Técnico em Desenvolvimento de Sistemas - AMS</CardDescription>
                 </div>
               </div>
-              <CardAction>
+              <CardAction className="text-zinc-400">
                 <p>Jan 2021 - Dez 2023</p>
                 <p className="text-right">3 anos</p>
               </CardAction>

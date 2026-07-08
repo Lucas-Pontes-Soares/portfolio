@@ -1,0 +1,442 @@
+
+* **GFT - Fundamentos de Cloud com AWS** | Jun 2026 -- Jul 2026  
+Bootcamp da DIO, para aprender sobre a AWS, de forma prática.
+    * Criei contas e configurei cargos e permissões com o IAM;
+    * Criei diagramas  e fluxogramas de arquitetura e infraestrutura nuvem AWS no draw.io;
+    * Estudei e apliquei sobre Amazon EC2, Lambda, Serverless;
+    * Estudei e apliquei sobre os bancos de dados RDS, DynamoDB, S3;
+    * Estudei e apliquei sobre SQS e SNS;
+    * Aprimorei meus conhecimentos sobre EKS, Docker e DevOPS.
+
+    `Tecnologias`: AWS, Cloud, Amazon, EC2, Lambda, IAM, RDS, DynamoDB, S3, SQS, SNS, EKS, DevOps.
+
+<!-- -------------------------------------- -->    
+        
+* **Estudos sobre TDD** | Mai 2026  
+Estudos sobre Test-Driven Development, técnica de desenvolvimento que utiliza testes de unidade como guias do código.
+    * Aprendi sobre TDD, o que é, que ele mira nos testes de unidade;
+    * Entendi que ele foca no resultado esperado, e não como chegar no resultado;
+    * Entendi a ideia do Test First, Red/Refactor/Green e Baby Steps, passo por passo, onde testamos primeiro;
+    * Aprendi que o TDD fala que não devemos fazer que os códigos funcionem de primeira, precisamos refatorar.
+
+    `Tecnologias`: TDD, Domain, Value Objects, Context.
+
+<!-- -------------------------------------- -->    
+        
+* **Desafio DDD: Sistema CineFlow** | Mai 2026  
+Exercício prático de modelagem de um sistema de gerenciamento de salas de cinema aplicando os conceitos de Domain-Driven Design.
+    * Interpretei o cenário e identifiquei as ações e entidades do sistema;
+    * Refleti e defini os domínios e seus tipos como principal, genérico e auxiliar;
+    * Mapeei os limites de cada domínio e o que pertence a cada contexto delimitado;
+    * Defini os contextos e refleti sobre microsserviços com comunicação assíncrona via RabbitMQ;
+    * Identifiquei e estruturei Value Objects como assentos e valores monetários.
+
+    `Tecnologias`: DDD, Domain, Value Objects, Context.
+
+<!-- -------------------------------------- -->    
+        
+* **Estudos sobre DDD** | Abr 2026 -- Mai 2026  
+Estudos sobre Domain-Driven Design focados na modelagem de domínios complexos, limites de contextos e arquitetura de software.
+    * Entendi que o Domínio é o coração do negócio;
+    * Compreendi os tipos de domínios divididos em principal, genérico e auxiliar;
+    * Assimilei a importância da Linguagem Ubíqua e da comunicação com o Domain Expert;
+    * Aprendi a delimitar os contextos da aplicação e a estabelecer as fronteiras de cada um.
+
+    `Tecnologias`: DDD, Domain, Value Objects, Context.
+
+<!-- -------------------------------------- -->    
+        
+* **[RabbitMQ: Queues, Exchanges e DLQ](https://github.com/Lucas-Pontes-Soares/learn-rabbitmq)** | Abr 2026  
+Estudo prático de mensageria em uma arquitetura de microsserviços de e-commerce com foco em resiliência e tratamento de erros.
+    * Estudei sobre os conceitos fundamentais do RabbitMQ;
+    * Desenvolvi os microsserviços de forma independente e especializada;
+    * Desenvolvi o publicador e os consumidores de mensagens do ecossistema;
+    * Implementei a lógica de Dead Letter Queue para tratamento de mensagens com falha;
+    * Utilizei Exchanges estruturadas para garantir o roteamento correto e indireto para as filas.
+
+    `Tecnologias`: RabbitMQ, Node.js, Docker, Queues, Exchanges, DLQ.
+
+<!-- -------------------------------------- -->    
+        
+* **[Submissão Artigo na Revista InterAgro](https://github.com/Lucas-Pontes-Soares/estacao-agroclimatica-inteligente)** | Set 2025 -- Abr 2026  
+Estação agroclimática inteligente baseada em IoT e protocolo MQTT utilizando a placa ESP32 para monitoramento ambiental.
+    * Estudei sobre o funcionamento e aplicação do protocolo MQTT;
+    * Desenvolvi e modelei a estrutura física simulada do ESP32 na plataforma Wokwi;
+    * Programei a lógica de captura de dados de sensores e mensageria;
+    * Configurei o envio e o recebimento de notificações e alertas estruturados via broker MQTT.
+
+    `Tecnologias`: ESP32, Python, Arduino, Agro, Revista, InterAgro, Wokwi.
+
+<!-- -------------------------------------- -->    
+        
+* **[Back-end Node com Testes Unitários, Integração e E2E](https://github.com/Lucas-Pontes-Soares/node-testable-apps)** | Abr 2026  
+API de agendamentos para uma barbearia desenvolvida de forma isolada do banco de dados utilizando os princípios do SOLID.
+    * Estudei sobre conceitos de Testes Unitários, de Integração e E2E;
+    * Utilizei conceitos do SOLID, inversão de dependências e POO;
+    * Construi um serviço independente de banco de dados, criando uma aplicação isolada;
+    * Desenvolvi testes unitários com Vitest no Node.js para validar regras de negócio e datas.
+
+    `Tecnologias`: Node.js, Typescript, Git, Vitest, Tests, Unit Tests, Integration Tests, E2E Tests, SOLID, POO.
+
+<!-- -------------------------------------- -->    
+        
+* **[Nest.JS Library API](https://github.com/Lucas-Pontes-Soares/nest-library-api)** | Mar 2026 -- Abr 2026  
+API REST para gerenciamento de uma biblioteca física, implementando controle de acesso por perfis (RBAC) e regras de permissões.
+    * Apliquei práticas de arquitetura modular separando recursos em repositórios, DTOs, controllers, interfaces e services;
+    * Implementei autenticação via tokens JWT utilizando Guards do NestJS para a validação das requisições;
+    * Desenvolvi a camada de persistência com banco de dados PostgreSQL utilizando o Drizzle ORM;
+    * Desenvolvi a lógica de controle de acesso baseado em funções (RBAC) separando permissões entre clientes e bibliotecários;
+    * Estruturei uma matriz de permissões centralizada para gerenciar dinamicamente as ações permitidas a cada perfil de usuário.
+
+    `Tecnologias`: Nest.js, Node.js, Typescript, Git, PostgreSQL, Drizzle, Roles, RBAC, ABAC, JWT.
+
+<!-- -------------------------------------- -->    
+        
+* **[DevRoast](https://github.com/Lucas-Pontes-Soares/devroast)** | Mar 2026  
+Analisador de qualidade de código baseado em inteligência artificial que avalia e fornece feedbacks de 0 a 10.
+    * Apliquei melhores práticas de engenharia de prompts estruturados para guiar os agentes de IA;
+    * Integrei o Claude Code com Model Context Protocol (MCP) e skills customizadas para automação do fluxo;
+    * Desenvolvi a interface web responsiva utilizando a arquitetura do Next.js;
+    * Desenvolvi a camada de persistência e serviços back-end utilizando Node.js e banco de dados PostgreSQL;
+    * Implementei a lógica de análise estática e interpretativa de código conectando à API do Gemini;
+    * Programei as visualizações de métricas de qualidade, sugestões de correções e sistema de ranqueamento.
+
+    `Tecnologias`: Next.js, Node.js, IA, Gemini, Claude Code, MCP, Git, Agentes, Typescript, tailwind-css, Pencil, Base-ui, PostgreSQL.
+
+<!-- -------------------------------------- -->    
+        
+* **[MasterClass Nest.js](https://github.com/Lucas-Pontes-Soares/masterclass-nestjs)** | Mar 2026  
+Estudo das práticas e arquitetura opinada do framework NestJS, explorando injeção de dependência e desacoplamento de camadas.
+    * Desenvolvi uma API REST em NestJS para absorver a arquitetura e o ecossistema do framework;
+    * Apliquei na prática os conceitos de Inversão de Dependência e Injeção de Dependência para desacoplamento;
+    * Configurei e integrei um banco de dados SQLite utilizando o Prisma ORM para persistência dos dados;
+    * Organizei e estruturei a aplicação dividindo as responsabilidades em módulos, controllers, providers, repositories e DTOs.
+
+    `Tecnologias`: Nest.js, Typescript, Node.js, Prisma, SQLite, Git.
+
+<!-- -------------------------------------- -->    
+        
+* **[Práticas de RAG](https://github.com/Lucas-Pontes-Soares/learn-rag)** | Mar 2026  
+Estudo prático de Retrieval-Augmented Generation abordando chunking, embeddings, banco de dados vetorial e busca por similaridade.
+    * Desenvolvi lógica para extrair conteúdo em formato Markdown de sites utilizando a API do Firecrawl;
+    * Implementei a segmentação de documentos em chunks aplicando estratégias de overlap para preservação de contexto;
+    * Gerei vetores de embeddings para cada fragmento de texto utilizando os modelos da API do Gemini;
+    * Persisti os embeddings gerados estruturadamente no banco de dados vetorial Turso;
+    * Converteri as consultas textuais dos usuários em embeddings para viabilizar a indexação;
+    * Executei algoritmos de busca por similaridade vetorial para extrair os contextos mais relevantes para a IA.
+
+    `Tecnologias`: Typescript, RAG, IA, Docker, Turso, Firecrawl, Gemini, Git, Embeddings, Chunks.
+
+<!-- -------------------------------------- -->    
+        
+* **[Cache com Redis em Node.js](https://github.com/Lucas-Pontes-Soares/learn-redis)** | Mar 2026  
+Estudo e implementação de estratégias de cache do tipo chave-valor utilizando Redis em uma API Node.js para otimização.
+    * Desenvolvi o fluxo completo para criação e persistência de dados de usuários;
+    * Configurei o ambiente em contêineres Docker para gerenciar o banco de dados e a instância do Redis;
+    * Configurei o Redis como camada de cacheamento para otimizar o acesso aos dados cadastrados;
+    * Implementei o padrão de chaves estruturadas serializando objetos complexos de usuários em strings;
+    * Analisei as diferenças arquiteturais e estruturais entre bancos de dados relacionais e o Redis;
+    * Avaliei o impacto na performance mensurando a redução no tempo de resposta das requisições.
+
+    `Tecnologias`: Node.js, Redis, PostgreSQL, Git, Docker.
+
+<!-- -------------------------------------- -->    
+        
+* **[Desafio Microsserviços Escaláveis Node.js](https://github.com/Lucas-Pontes-Soares/desafio-microsservicos-escalaveis-Node.js)** | Fev 2026  
+Desenvolvimento de ecossistema baseado em microsserviços independentes, focando em alta disponibilidade de maneira escalável.
+    * Desenvolvi microsserviços independentes com comunicação assíncrona via RabbitMQ;
+    * Configurei o ambiente Docker para a execução local dos bancos de dados e do message broker;
+    * Apliquei a camada de persistência utilizando PostgreSQL integrado ao Drizzle ORM;
+    * Implementei e gerenciei o fluxo de migrations automatizadas no banco de dados;
+    * Implementei a estrutura de observabilidade da arquitetura utilizando Grafana e Jaeger para logging e tracing;
+    * Automatizei o fluxo de deploy em infraestrutura AWS Fargate utilizando a ferramenta de IaC Pulumi.
+
+    `Tecnologias`: Node.js, PostgreSQL, RabbitMQ, Grafana, Jaeger, Pulumi, AWS, Git, GitHub, Drizzle, Docker, GitHub Actions, CI, CD.
+
+<!-- -------------------------------------- -->    
+        
+* **[Dumble: Sistema Educacional Com Inteligência Artificial](https://github.com/Lucas-Pontes-Soares/dumble)** | Fev 2025 -- Dez 2025  
+Projeto integrador da faculdade, uma plataforma web interativa que centraliza o ensino para fortalecer o vínculo professor-aluno.
+    * Desenvolvi a parte da IA com RAG, onde os professores anexavam arquivos e o conteudo deles eram disponibilizados para a IA;
+    * Construi os prompts rigorosos e estruturados de IA, para o chat-bot e a sugestão de perguntas;
+    * Desenvolvi o front-end de maneira responsiva;
+    * Implementei autenticação de usuários via tokens JWT;
+    * Gerenciei o banco de dados SQL;
+    * Administrei e realizei o deploy (hospedagem).
+
+    `Tecnologias`: IA, Node.js, React.js, PostgreSQL (SQL), RAG, JWT, Heroku, Git, tailwind-css, shadcn-ui.
+
+<!-- -------------------------------------- -->    
+        
+* **[Janela Automática](https://github.com/Lucas-Pontes-Soares/JanelaAutomatica)** | Set 2025 -- Dez 2025  
+Sistema de automação residencial utilizando ESP32, sensores ambientais e protocolo MQTT para o controle inteligente de janela.
+    * Desenvolvi o firmware para o microcontrolador ESP32, gerenciando a leitura de sensores de chuva, temperatura e luminosidade;
+    * Projetei a lógica de automação segmentada para controlar de forma independente o vidro, a persiana e a veneziana;
+    * Implementei a telemetria e a comunicação dos dados via protocolo MQTT para integração com um aplicativo externo.
+
+    `Tecnologias`: Arduino, ESP-32, MQTT, Python.
+
+<!-- -------------------------------------- -->    
+        
+* **[Avanti Intelligence: IA para detectar pneumonia](https://github.com/Lucas-Pontes-Soares/avanti-intelligence)** | Mai 2025 -- Out 2025  
+Projeto para apresentar no evento da Geniuscon 2025 em Jacarezinho, conseguimos chegar nas finais.
+    * Desenvolvemos e estruturamos o modelo de IA realizando o treinamento com um dataset real de imagens de raio-X de tórax;
+    * Realizamos o treinamento supervisionado da Rede Neural Convolucional (CNN);
+    * Analisamos as métricas obtidas e alcançamos uma taxa de acerto de 90% na identificação positiva da doença;
+    * Implementei o fluxo de autenticação de usuários na plataforma web utilizando tokens JWT;
+    * Aplicamos o pipeline de dados segmentando o conjunto de imagens em etapas de treinamento, validação e teste;
+    * Desenvolvi a interface web para apresentação do projeto e integrei o modelo exportado para a execução de testes em tempo real.
+
+    `Tecnologias`: IA, Python, CNN, React.js, Aprendizado Supervisionado, Git, tailwind-css, shadcn-ui.
+
+<!-- -------------------------------------- -->    
+        
+* **[Projeto Kubernetes Azure](https://github.com/Lucas-Pontes-Soares/atividade-interdisciplinar-kubernetes)** | Out 2025  
+Projeto de DevOps e Cloud focada em conteinerização com Docker e orquestração com Kubernetes na Azure.
+    * Versionei o código-fonte da aplicação utilizando o ecossistema Git e GitHub;
+    * Configurei o Dockerfile para empacotar o site estático integrado ao servidor Nginx;
+    * Gerei e publiquei a imagem de produção estruturada no Docker Hub;
+    * Implementei pipelines de CI com GitHub Actions para validação e linter automatizado de HTML e CSS;
+    * Configurei o cluster Kubernetes na Azure (AKS) definindo a execução resiliente de dois pods;
+    * Realizei o deploy e a sustentação da aplicação conteinerizada utilizando a infraestrutura de nuvem da Azure.
+
+    `Tecnologias`: Docker, DockerHub, CI, CD, GitHub, Git, GitHub Actions, Azure, Kubernetes.
+
+<!-- -------------------------------------- -->    
+        
+* **Maratona de Programação** | Mar 2024 -- Out 2025  
+Competições acadêmicas de programação (InterFatecs), resolução de problemas complexos de lógica e algoritmos.
+    * Atuei em equipe compartilhando estratégias e dividindo a resolução de problemas sob pressão de tempo;
+    * Desenvolvi algoritmos otimizados e estruturas de dados eficientes na linguagem C para atender aos limites de execução;
+    * Realizei a análise dos enunciados complexos para extração de requisitos, cenários de teste e modelagem inicial das soluções.
+
+    `Tecnologias`: C, Lógica, Maratona.
+
+<!-- -------------------------------------- -->    
+        
+* **[Jogo da Velha com IA](https://github.com/Lucas-Pontes-Soares/jogo-da-velha-com-ia)** | Set 2025  
+Um Jogo da Velha clássico desenvolvido em Python onde o adversário é uma inteligência artificial integrada à API do Gemini.
+    * Desenvolvi a lógica do jogo da velha gerenciando as rodadas entre o jogador e a IA;
+    * Implementei a funcionalidade de escolha de símbolo para o jogador entre as opções 'X' ou 'O';
+    * Apliquei níveis de dificuldade dinâmicos alterando as instruções de sistema enviadas à IA;
+    * Programei um sorteio aleatório com probabilidade equilibrada para definir o responsável pela jogada inicial;
+    * Estruturei o tabuleiro 3x3 através de uma matriz indexada para controle preciso das linhas e colunas;
+    * Implementei algoritmos de validação para verificação de condições de vitória, derrota ou empate.
+
+    `Tecnologias`: Python, IA, Gemini, Git.
+
+<!-- -------------------------------------- -->    
+        
+* **[Jornal Docker](https://github.com/Lucas-Pontes-Soares/mini-site-docker)** | Set 2025  
+Site temático de jornal para explicar sobre Docker utilizado DevOps e CI/CD.
+    * Desenvolvi a interface front-end contendo páginas informativas sobre o ecossistema Docker;
+    * Implementei pipelines de Integração Contínua (CI) utilizando GitHub Actions;
+    * Configurei o Dockerfile para build de produção e o Docker Compose para otimizar o ambiente de desenvolvimento;
+    * Automatizei gatilhos para que a cada push ou pull request a aplicação fosse construída e testada de forma consistente;
+    * Realizei a hospedagem e a publicação automatizada do site através do GitHub Pages.
+
+    `Tecnologias`: Docker, build, HTML, CSS, CI, GitHub, Git, GitHub Actions, GitHub Pages.
+
+<!-- -------------------------------------- -->    
+        
+* **[WineQuality: Machine Learning, Árvore de Decisão para Classificar Vinhos](https://github.com/Lucas-Pontes-Soares/wine-quality)** | Jun 2025  
+Algoritmo de Árvore de Decisão desenvolvido para classificar a qualidade de vinhos com base em atributos químicos e físicos.
+    * Treinamos o modelo preditivo utilizando um conjunto de dados supervisionado e rotulado;
+    * Implementamos e estruturamos algoritmos de Árvore de Decisão para a classificação dos dados;
+    * Executamos o pipeline completo de Machine Learning englobando as etapas de treinamento, validação, teste e avaliação métrica.
+
+    `Tecnologias`: Python, IA, Árvore de Decisão.
+
+<!-- -------------------------------------- -->    
+        
+* **[MazeSolver: Resolução de Labirinto com Busca Cega](https://github.com/Lucas-Pontes-Soares/wine-quality)** | Mai 2025  
+Algoritmo em Python que gera labirintos aleatórios e aplica a busca em largura (BFS) para encontrar o caminho entre dois pontos.
+    * Desenvolvemos um algoritmo baseado no método de busca cega em largura (BFS) para exploração de grafos;
+    * Desenvolvemos uma lógica estruturada para gerar labirintos aleatórios com garantia de caminhos possíveis;
+    * Implementamos uma interface de visualização em tempo real para exibir o labirinto sendo descoberto pelas iterações;
+    * Analisamos e observamos na prática o comportamento, a ordem de expansão de nós e a eficiência da busca em largura.
+
+    `Tecnologias`: Python, Busca cega, Navegação.
+
+<!-- -------------------------------------- -->    
+        
+* **[Games Spring](https://github.com/Lucas-Pontes-Soares/games-spring)** | Jan 2025  
+Projeto em Java Spring Boot integrado com front-end em JSP para o gerenciamento e CRUD de jogos, categorias e plataformas.
+    * Utilizei docker-compose para subir o banco de dados SQL;
+    * Trabalhei no Spring Boot com Controllers, Models e Repositories;
+    * Construi a interface com JSP com o CRUD completo do jogo, categoria e plataforma;
+    * Trabalhei com rotas e metodos HTTP, parámetros e retornos na API.
+
+    `Tecnologias`: Java, Spring Boot, Gradle, JSP, SQL, Docker, HTML, CSS.
+
+<!-- -------------------------------------- -->    
+        
+* **Sistema para Assistente Social** | Fev 2024 -- Dez 2024  
+Projeto acadêmico de engenharia de software focado em análise, modelagem do banco de dados para a assistência social.
+    * Idealizamos o escopo funcional e as regras de negócio de todo o ecossistema do projeto;
+    * Modelamos a arquitetura do sistema através de diagramas de casos de uso, classes, atividades e dicionário de dados;
+    * Construímos protótipos de alta fidelidade para validação de interfaces e experiência do usuário;
+    * Desenvolvemos a estrutura do banco de dados relacional em SQL com tabelas, restrições e relacionamentos;
+    * Realizamos o processo de ETL para migração de dados históricos legados a partir de planilhas eletrônicas.
+
+    `Tecnologias`: Banco de Dados, SQL, Análise de Requisitos.
+
+<!-- -------------------------------------- -->    
+        
+* **[CETAF](https://github.com/Lucas-Pontes-Soares/CETAF)** | Out 2024 -- Dez 2024  
+Sistema de gerenciamento de matrículas acadêmicas desenvolvido sob metodologias ágeis.
+    * Desenvolvi a infraestrutura e os serviços do back-end utilizando o ecossistema Node.js;
+    * Gerenciei e estruturei o banco de dados relacional utilizando o SGDB MySQL;
+    * Construí e otimizei queries SQL nativas para manipulação e junção de dados complexos na camada de persistência.
+
+    `Tecnologias`: React.js, Node.js, API, SQL, MySQL.
+
+<!-- -------------------------------------- -->    
+        
+* **[Lista Personagens](https://github.com/Lucas-Pontes-Soares/ListagemPersonagens)** | Out 2024 -- Dez 2024  
+Aplicativo mobile desenvolvido em Flutter para o gerenciamento, listagem e detalhamento de personagens integrados a uma API.
+    * Configurei e estruturei uma API REST simulada utilizando a plataforma MockAPI;
+    * Modelei o esquema de dados e os atributos fundamentais para a representação dos personagens;
+    * Implementei endpoints para a listagem completa, paginação e filtragem dinâmica dos registros;
+    * Desenvolvi a interface do aplicativo mobile em Flutter utilizando o FlutLab para consumo e renderização dos dados da API.
+
+    `Tecnologias`: Flutter, Front-end, API.
+
+<!-- -------------------------------------- -->    
+        
+* **Ministrei mini curso de Robocode** | Out 2024  
+Organização e docência de um minicurso prático sobre a plataforma Robocode, culminando em um campeonato de robôs virtuais.
+    * Apresentei os conceitos fundamentais e a arquitetura de simulação da plataforma Robocode para os alunos;
+    * Desenvolvi um robô exemplo em tempo real, explicando a lógica de programação, movimentação e escaneamento de alvos;
+    * Orientei os estudantes na prática em relação à API da ferramenta e estratégias de tomada de decisão baseada em eventos;
+    * Organizei e gerenciei o chaveamento de um campeonato competitivo de combate entre os tanques customizados criados pelos alunos.
+
+    `Tecnologias`: Arduino, Robocode, Minicurso.
+
+<!-- -------------------------------------- -->    
+        
+* **[Notes](https://github.com/Lucas-Pontes-Soares/NLW-Expert)** | Fev 2024  
+Aplicação web de gerenciamento de notas com suporte a criação de registros via texto ou por reconhecimento de voz.
+    * Desenvolvi a interface front-end baseada em componentes reativos utilizando ReactJS e Typescript no ecossistema Vite;
+    * Implementei a estilização utilitária e totalmente responsiva do layout através das classes do Tailwind CSS;
+    * Integrei a SpeechRecognition API para viabilizar a criação automatizada de notas a partir da transcrição de voz do usuário;
+    * Estruturei as funcionalidades de indexação, busca dinâmica por palavras-chave e exclusão de registros na aplicação.
+
+    `Tecnologias`: React.js, Front-end, Typescript.
+
+<!-- -------------------------------------- -->    
+        
+* **[NewsBlog](https://github.com/Lucas-Pontes-Soares/NewsBlog)** | Fev 2024  
+Plataforma de blog de artigos desenvolvida em ReactJS com suporte à criação e leitura de publicações estruturadas.
+    * Desenvolvi a interface front-end baseada em componentes utilizando ReactJS, Typescript e a arquitetura do Vite;
+    * Implementei a persistência local do catálogo de postagens utilizando a API do LocalStorage;
+    * Estruturei a área de criação de artigos contendo formulários dinâmicos para título, subtítulo, imagem de capa e corpo de conteúdo;
+    * Desenvolvi efeitos de interação (hover) e gerenciamento de rotas para exibição e leitura completa das publicações.
+
+    `Tecnologias`: React.js, Front-end, Typescript.
+
+<!-- -------------------------------------- -->    
+        
+* **[Lista de Compras](https://github.com/Lucas-Pontes-Soares/ListaCompras)** | Jan 2024  
+Aplicação web de lista de compras desenvolvida em Angular com operações de CRUD e persistência no LocalStorage.
+    * Desenvolvi a interface front-end utilizando componentes e a estrutura arquitetural do ecossistema Angular;
+    * Implementei o ciclo de vida dos componentes para gerenciar o estado e a reatividade da aplicação;
+    * Configurei a persistência da lista de compras localmente utilizando a API do LocalStorage;
+    * Estruturei a lógica de controle de fluxos para gerenciamento, edição e exclusão de itens cadastrados.
+
+    `Tecnologias`: Angular, Front-end.
+
+<!-- -------------------------------------- -->    
+        
+* **[Memoteca](https://github.com/Lucas-Pontes-Soares/memoteca)** | Jan 2024  
+Aplicação web desenvolvida em Angular 14 para o gerenciamento e CRUD completo de pensamentos, citações e trechos de músicas.
+    * Desenvolvi a interface front-end modularizada utilizando a arquitetura de componentes do Angular 14;
+    * Implementei serviços para a comunicação estruturada e manipulação de estado dos dados da aplicação;
+    * Configurei a persistência e o armazenamento local de registros utilizando a API de LocalStorage;
+    * Estruturei as rotas e a lógica de validação para o fluxo de criação, leitura, edição e exclusão de cartões.
+
+    `Tecnologias`: Angular, Front-end.
+
+<!-- -------------------------------------- -->    
+        
+* **[AluraBooks](https://github.com/Lucas-Pontes-Soares/alurabooks)** | Jan 2024  
+Aplicação web desenvolvida em Angular focada em formulários orientados a templates com validações e integração com API de CEP.
+    * Desenvolvi a interface front-end utilizando componentes estruturados e estilização responsiva no ecossistema Angular;
+    * Implementei formulários orientados a templates aplicando diretivas customizadas e restrições de validação de campos;
+    * Integrei uma API externa de busca de endereços para realizar o autopreenchimento dos campos a partir do CEP informado.
+
+    `Tecnologias`: Angular, Front-end.
+
+<!-- -------------------------------------- -->    
+        
+* **[Java com Spring Boot](https://github.com/Lucas-Pontes-Soares/todolist)** | Out 2023  
+API REST de uma aplicação To-Do List desenvolvida para consolidar conceitos iniciais de rotas, validações e persistência.
+    * Desenvolvi o CRUD do to-do-list;
+    * Entendi as estrutura de pacotes e importações de classe no Java;
+    * Trabalhei com Repository, Controller, Model, Utils;
+    * Utilizei banco de dados SQL, conceito de ORM.
+
+    `Tecnologias`: Java, Spring Boot, Maven, JWT, SQL.
+
+<!-- -------------------------------------- -->    
+        
+* **[GPLink](https://github.com/Lucas-Pontes-Soares/ProjetoTCC)** | Fev 2023 -- Out 2023  
+Plataforma web voltada ao público gamer com o objetivo de centralizar perfis de diferentes redes em um único ecossistema.
+    * Integrei o sistema com APIs e bibliotecas das plataformas Xbox, Steam e PlayStation implementando consumo de dados paginado;
+    * Desenvolvi a interface front-end responsiva para a consolidação e exibição unificada dos perfis e conquistas das redes;
+    * Implementei o fluxo de autenticação e segurança de rotas na aplicação utilizando tokens JWT;
+    * Gerenciei a persistência e a modelagem de dados flexível utilizando o banco de dados NoSQL MongoDB;
+    * Atuei de forma full-stack no design da arquitetura, no desenvolvimento de serviços e na integração com o cliente.
+
+    `Tecnologias`: React.js, Node.js, MongoDB, API.
+
+<!-- -------------------------------------- -->    
+        
+* **[Upload AI](https://github.com/Lucas-Pontes-Soares/NLW-IA)** | Set 2023  
+Plataforma web que consome modelos de IA para gerar automaticamente títulos e descrições com base na transcrição de vídeos.
+    * Desenvolvi a interface web responsiva e modularizada utilizando componentes da biblioteca shadcn/ui;
+    * Implementei a lógica back-end e o pipeline para processamento de áudio e extração da transcrição do vídeo;
+    * Estruturei a engenharia de prompts injetando variáveis de contexto para garantir respostas precisas da IA;
+    * Integrei a API de modelo de linguagem fornecendo a transcrição para a geração automatizada de metadados focados em engajamento.
+
+    `Tecnologias`: React.js, Node.js, IA, shadcn-ui.
+
+<!-- -------------------------------------- -->    
+        
+* **[La Cafezito](https://github.com/Lucas-Pontes-Soares/LaCafezito)** | Set 2022 -- Dez 2022  
+Sistema web para cafeteria com fluxo de montagem de pedidos e gerenciamento interno via painel administrativo com quadro Kanban.
+    * Gerenciei a modelagem do banco de dados relacional e a construção de consultas SQL eficientes utilizando o MySQL;
+    * Desenvolvi as regras de negócio e a lógica de persistência do back-end utilizando a linguagem PHP;
+    * Construí o painel administrativo integrando uma interface Kanban para o controle visual e movimentação dos status dos pedidos.
+
+    `Tecnologias`: PHP, HTML, CSS, SQL, MySQL.
+
+<!-- -------------------------------------- -->    
+        
+* **[Cancela Automatica](https://github.com/Lucas-Pontes-Soares/ArduinoCancela)** | Fev 2022 -- Out 2022  
+Sistema de cancela automatizada controlado por microcontrolador, utilizando servomotores, botões e comunicação Bluetooth.
+    * Desenvolvi a lógica computacional em C para o acionamento da cancela simulando a aproximação de composições ferroviárias;
+    * Projetei e montei o circuito físico integrando LEDs de sinalização, sensores e servomotores no microcontrolador;
+    * Implementei o protocolo de comunicação pareado via Bluetooth para viabilizar o controle remoto do sistema por dispositivos móveis.
+
+    `Tecnologias`: Arduino, C, Sistemas Embarcados.
+
+<!-- -------------------------------------- -->    
+        
+* **[Jogo Tiro ao Alvo](https://github.com/Lucas-Pontes-Soares/JogoAlvo)** | Abr 2022  
+Aplicação web desenvolvida para treinamento de precisão de clique, gerando alvos aleatórios com contagem de acertos e erros.
+    * Desenvolvi a lógica em JavaScript para renderização e posicionamento pseudoaleatório dos alvos na tela;
+    * Implementei um sistema de cronômetro customizável permitindo ao usuário definir o tempo de duração da partida;
+    * Desenvolvi as funções de reset de estado da aplicação para reinicialização instantânea da pontuação e do fluxo do jogo.
+
+    `Tecnologias`: Front-end, JavaScript, HTML, CSS.
+
+<!-- -------------------------------------- -->    
+        
+* **[Jogo da Forca](https://github.com/Lucas-Pontes-Soares/JogoForca)** | Out 2021 -- Dez 2021  
+Jogo da forca clássico desenvolvido em C++ com interface via terminal, apresentando escolha de temas e renderização do personagem.
+    * Desenvolvi a lógica do jogo para varredura e identificação de caracteres correspondentes na palavra secreta;
+    * Estruturei a interface visual e a renderização do layout diretamente via console de comandos (terminal);
+    * Implementei o algoritmo de controle de tentativas desenhando o boneco progressivamente a cada entrada incorreta.
+
+    `Tecnologias`: C++, Lógica.

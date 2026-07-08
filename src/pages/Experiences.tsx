@@ -33,7 +33,7 @@ export default function Experiences() {
                   <CardDescription>Estágio em Programação</CardDescription>
                 </div>
               </div>
-              <CardAction>
+              <CardAction className="text-zinc-400">
                 <p>Mar 2024 - Out 2025 (Remoto)</p>
                 <p className="text-right">1 ano e 8 meses</p>
               </CardAction>

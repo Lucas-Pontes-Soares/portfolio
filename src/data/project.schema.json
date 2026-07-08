@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PortfolioData",
+  "type": "object",
+  "properties": {
+    "projects": {
+      "type": "array",
+      "description": "List of all portfolio projects.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "maxLength": 100,
+            "description": "The title of the project."
+          },
+          "date": {
+            "type": "object",
+            "description": "Project start and end dates.",
+            "properties": {
+              "startAt": { 
+                "type": "string", 
+                "pattern": "^(0[1-9]|1[0-2])\\/[0-9]{4}$",
+                "description": "Start date. Must be in MM/YYYY format (e.g., '02/2025')."
+              },
+              "endAt": { 
+                "type": ["string", "null"], 
+                "pattern": "^(0[1-9]|1[0-2])\\/[0-9]{4}$",
+                "description": "End date. Must be in MM/YYYY format (e.g., '12/2025') or null if currently in progress."
+              }
+            },
+            "required": ["startAt", "endAt"]
+          },
+          "description": {
+            "type": "string",
+            "maxLength": 130,
+            "pattern": "^.*\\.$",
+            "description": "A brief summary of the project. Must end with a period (.)."
+          },
+          "isHighlighted": {
+            "type": "boolean",
+            "description": "Determines whether the project is featured/highlighted with a star."
+          },
+          "media": {
+            "type": "object",
+            "description": "Project media assets (images and videos). Must follow the folder path structure.",
+            "properties": {
+              "image": { 
+                "type": ["string", "null"],
+                "pattern": "^\\/projects\\/images\\/[a-zA-Z0-9_\\.-]+\\.(png|jpg|jpeg|webp)$",
+                "description": "Image file path. Must start with '/projects/images/' and end with a valid extension (.png, .jpg, .jpeg, .webp)."
+              },
+              "video": { 
+                "type": ["string", "null"],
+                "pattern": "^\\/projects\\/videos\\/[a-zA-Z0-9_\\.-]+\\.(mp4|webm|mov)$",
+                "description": "Video file path or null. Must start with '/projects/videos/' and end with a valid extension (.mp4, .webm, .mov)."
+              }
+            }
+          },
+          "urls": {
+            "type": "object",
+            "description": "External project links (GitHub, Live Preview, Articles).",
+            "properties": {
+              "repository": { "type": ["string", "null"] },
+              "deploy": { "type": ["string", "null"] },
+              "article": { "type": ["string", "null"] }
+            }
+          },
+          "topics": {
+            "type": "array",
+            "description": "List of project topics/accomplishments. Intermediate items must end with a semicolon (;) and the very last item must end with a period (.).",
+            "items": {
+              "type": "string",
+              "maxLength": 130,
+              "anyOf": [
+                { "pattern": "^.*;$" },
+                { "pattern": "^.*\\.$" }
+              ],
+              "description": "Each item must end with either a semicolon (;) or a period (.)."
+            }
+          },
+          "tags": {
+            "type": "string",
+            "maxLength": 120,
+            "pattern": "^[^,]+(, [^,]+)*$",
+            "description": "Comma-separated project tags. Must follow the 'Tag, Tag, Tag' spacing pattern."
+          }
+        },
+        "required": ["title", "description", "isHighlighted", "date", "media", "urls", "topics", "tags"]
+      }
+    }
+  },
+  "required": ["projects"]
+}

@@ -3,9 +3,10 @@ import { SkillBadge } from "@/components/skill-badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { BR, ES, US } from "country-flag-icons/react/3x2";
 import { File, LucideFileJson, TestTube } from "lucide-react";
-import { FaAngular, FaArrowsAlt, FaBrain, FaCheck, FaClipboardList, FaCode, FaComment, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGitAlt, FaHtml5, FaJava, FaJs, FaLightbulb, FaMicrochip, FaMobileAlt, FaNodeJs, FaPalette, FaPhp, FaPlay, FaProjectDiagram, FaPython, FaReact, FaSitemap, FaTasks, FaThLarge, FaUsers, FaWordpress, FaWrench, FaVial, FaCubes, FaShapes, FaShieldAlt, FaLayerGroup } from "react-icons/fa";
+import { FaAngular, FaArrowsAlt, FaBrain, FaCheck, FaClipboardList, FaCode, FaComment, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaHtml5, FaJava, FaJs, FaLightbulb, FaMicrochip, FaMobileAlt, FaNodeJs, FaPalette, FaPhp, FaPlay, FaProjectDiagram, FaPython, FaReact, FaSitemap, FaTasks, FaThLarge, FaUsers, FaWordpress, FaWrench, FaVial, FaCubes, FaShapes, FaShieldAlt, FaLayerGroup, FaAws } from "react-icons/fa";
 import { GiFamilyTree } from 'react-icons/gi';
 import { SiEspressif, SiGooglegemini, SiGrafana, SiMongodb, SiNestjs, SiOpenai, SiPostgresql, SiRabbitmq, SiRedis, SiTypescript, SiVitest } from "react-icons/si";
+import { VscAzure } from "react-icons/vsc";
 
 export default function Home() {
 
@@ -89,7 +90,8 @@ export default function Home() {
                   <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">DevOps & Monitoria:</h3>
                   <div className="flex flex-wrap gap-2">
                     <SkillBadge name="Docker" icon={FaDocker} />
-                    <SkillBadge name="Git" icon={FaGitAlt} />
+                    <SkillBadge name="AWS" icon={FaAws} />
+                    <SkillBadge name="Azure" icon={VscAzure} />
                     <SkillBadge name="Github Actions" icon={FaPlay} />
                     <SkillBadge name="Grafana" icon={SiGrafana} />
                   </div>

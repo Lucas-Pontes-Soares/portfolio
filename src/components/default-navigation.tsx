@@ -93,7 +93,7 @@ export function DefaultNavigation({ actuallyPage }: NavigationProps) {
             <ModeToggle />
             <Button asChild className="hover:cursor-pointer">
                 <a 
-                    href={`${import.meta.env.BASE_URL}Curriculo - Lucas Pontes Soares - Dev Back End Junior.pdf`}
+                    href={`${import.meta.env.BASE_URL}Curriculo - Lucas_Pontes_Soares - Dev Full Stack Junior.pdf`}
                     target="_blank" 
                     rel="noopener noreferrer"
                 >
