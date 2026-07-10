@@ -46,7 +46,7 @@ async function generate() {
 
         projects_txt += `
 ${project.title}
-${datePeriod}  
+${datePeriod}
 ${project.description}`;
       
 
@@ -62,7 +62,7 @@ Tecnologias: ${project.tags}
 
         if (project.urls.repository != null) {
             projects_txt += `
-💻 Repositório: ${project.urls.repository}
+Repositório: ${project.urls.repository}
     `
         }
         if (index < data.projects.length) {

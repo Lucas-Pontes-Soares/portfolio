@@ -79,7 +79,11 @@ export default function Projects() {
 
     
     const matchesTag = selectedTag === "All" || 
-      project.tags.toLowerCase().includes(selectedTag.toLowerCase());
+      project.tags
+        .toLowerCase()
+        .split(',') 
+        .map(tag => tag.trim())
+        .includes(selectedTag.toLowerCase());
 
     return matchesSearch && matchesTag;
   });

@@ -86,7 +86,7 @@ API REST para gerenciamento de uma biblioteca física, implementando controle de
     * Implementei autenticação via tokens JWT utilizando Guards do NestJS para a validação das requisições;
     * Desenvolvi a camada de persistência com banco de dados PostgreSQL utilizando o Drizzle ORM;
     * Desenvolvi a lógica de controle de acesso baseado em funções (RBAC) separando permissões entre clientes e bibliotecários;
-    * Estruturei uma matriz de permissões centralizada para gerenciar dinamicamente as ações permitidas a cada perfil de usuário.
+    * Estruturei uma matriz de permissões no arquivo permissions.ts para gerenciar dinamicamente as ações permitidas a cada perfil.
 
     `Tecnologias`: Nest.js, Node.js, Typescript, Git, PostgreSQL, Drizzle, Roles, RBAC, ABAC, JWT.
 
@@ -97,11 +97,11 @@ Analisador de qualidade de código baseado em inteligência artificial que avali
     * Apliquei melhores práticas de engenharia de prompts estruturados para guiar os agentes de IA;
     * Integrei o Claude Code com Model Context Protocol (MCP) e skills customizadas para automação do fluxo;
     * Desenvolvi a interface web responsiva utilizando a arquitetura do Next.js;
-    * Desenvolvi a camada de persistência e serviços back-end utilizando Node.js e banco de dados PostgreSQL;
+    * Desenvolvi a camada de persistência e serviços back-end e banco de dados PostgreSQL;
     * Implementei a lógica de análise estática e interpretativa de código conectando à API do Gemini;
     * Programei as visualizações de métricas de qualidade, sugestões de correções e sistema de ranqueamento.
 
-    `Tecnologias`: Next.js, Node.js, IA, Gemini, Claude Code, MCP, Git, Agentes, Typescript, tailwind-css, Pencil, Base-ui, PostgreSQL.
+    `Tecnologias`: Next.js, IA, Gemini, Claude Code, MCP, Git, Agentes, Typescript, tailwind-css, Pencil, Base-ui, PostgreSQL.
 
 <!-- -------------------------------------- -->    
         
@@ -249,7 +249,7 @@ Algoritmo de Árvore de Decisão desenvolvido para classificar a qualidade de vi
 
 <!-- -------------------------------------- -->    
         
-* **[MazeSolver: Resolução de Labirinto com Busca Cega](https://github.com/Lucas-Pontes-Soares/wine-quality)** | Mai 2025  
+* **[MazeSolver: Resolução de Labirinto com Busca Cega](https://github.com/Lucas-Pontes-Soares/mazeSolver)** | Mai 2025  
 Algoritmo em Python que gera labirintos aleatórios e aplica a busca em largura (BFS) para encontrar o caminho entre dois pontos.
     * Desenvolvemos um algoritmo baseado no método de busca cega em largura (BFS) para exploração de grafos;
     * Desenvolvemos uma lógica estruturada para gerar labirintos aleatórios com garantia de caminhos possíveis;

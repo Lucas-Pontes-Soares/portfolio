@@ -37,7 +37,7 @@
                 "endAt": "05/2026"
             },
             "media": {
-                "image": null,
+                "image": "/projects/images/tdd.png",
                 "video": null
             },
             "urls": {
@@ -88,7 +88,7 @@
                 "endAt": "05/2026"
             },
             "media": {
-                "image": null,
+                "image": "/projects/images/ddd.png",
                 "video": null
             },
             "urls": {
@@ -164,7 +164,7 @@
                 "endAt": "04/2026"
             },
             "media": {
-                "image": null,
+                "image": "/projects/images/node-testable-apps.png",
                 "video": null
             },
             "urls": {
@@ -202,7 +202,7 @@
                 "Implementei autenticação via tokens JWT utilizando Guards do NestJS para a validação das requisições;",
                 "Desenvolvi a camada de persistência com banco de dados PostgreSQL utilizando o Drizzle ORM;",
                 "Desenvolvi a lógica de controle de acesso baseado em funções (RBAC) separando permissões entre clientes e bibliotecários;",
-                "Estruturei uma matriz de permissões centralizada para gerenciar dinamicamente as ações permitidas a cada perfil de usuário."
+                "Estruturei uma matriz de permissões no arquivo permissions.ts para gerenciar dinamicamente as ações permitidas a cada perfil."
             ],
             "tags": "Nest.js, Node.js, Typescript, Git, PostgreSQL, Drizzle, Roles, RBAC, ABAC, JWT."
         },
@@ -215,7 +215,7 @@
                 "endAt": "03/2026"
             },
             "media": {
-                "image": null,
+                "image": "/projects/images/devroast.png",
                 "video": null
             },
             "urls": {
@@ -227,11 +227,11 @@
                 "Apliquei melhores práticas de engenharia de prompts estruturados para guiar os agentes de IA;",
                 "Integrei o Claude Code com Model Context Protocol (MCP) e skills customizadas para automação do fluxo;",
                 "Desenvolvi a interface web responsiva utilizando a arquitetura do Next.js;",
-                "Desenvolvi a camada de persistência e serviços back-end utilizando Node.js e banco de dados PostgreSQL;",
+                "Desenvolvi a camada de persistência e serviços back-end e banco de dados PostgreSQL;",
                 "Implementei a lógica de análise estática e interpretativa de código conectando à API do Gemini;",
                 "Programei as visualizações de métricas de qualidade, sugestões de correções e sistema de ranqueamento."
             ],
-            "tags": "Next.js, Node.js, IA, Gemini, Claude Code, MCP, Git, Agentes, Typescript, tailwind-css, Pencil, Base-ui, PostgreSQL."
+            "tags": "Next.js, IA, Gemini, Claude Code, MCP, Git, Agentes, Typescript, tailwind-css, Pencil, Base-ui, PostgreSQL."
         },
         {
             "title": "MasterClass Nest.js",
@@ -242,7 +242,7 @@
                 "endAt": "03/2026"
             },
             "media": {
-                "image": null,
+                "image": "/projects/images/masterclass-nest.png",
                 "video": null
             },
             "urls": {
@@ -294,7 +294,7 @@
                 "endAt": "03/2026"
             },
             "media": {
-                "image": null,
+                "image": "/projects/images/redis.png",
                 "video": null
             },
             "urls": {
@@ -558,7 +558,7 @@
                 "video": null
             },
             "urls": {
-                "repository": "https://github.com/Lucas-Pontes-Soares/wine-quality",
+                "repository": "https://github.com/Lucas-Pontes-Soares/mazeSolver",
                 "deploy": null,
                 "article": null
             },
@@ -828,7 +828,7 @@
                 "endAt": "10/2023"
             },
             "media": {
-                "image": null,
+                "image": "/projects/images/spring-to-do-list.png",
                 "video": null
             },
             "urls": {
