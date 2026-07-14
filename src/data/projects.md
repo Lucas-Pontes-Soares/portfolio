@@ -195,7 +195,6 @@ Projeto para apresentar no evento da Geniuscon 2025 em Jacarezinho, conseguimos 
 Projeto de DevOps e Cloud focada em conteinerização com Docker e orquestração com Kubernetes na Azure.
     * Versionei o código-fonte da aplicação utilizando o ecossistema Git e GitHub;
     * Configurei o Dockerfile para empacotar o site estático integrado ao servidor Nginx;
-    * Gerei e publiquei a imagem de produção estruturada no Docker Hub;
     * Implementei pipelines de CI com GitHub Actions para validação e linter automatizado de HTML e CSS;
     * Configurei o cluster Kubernetes na Azure (AKS) definindo a execução resiliente de dois pods;
     * Realizei o deploy e a sustentação da aplicação conteinerizada utilizando a infraestrutura de nuvem da Azure.

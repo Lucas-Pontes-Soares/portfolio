@@ -40,19 +40,15 @@ export default function Experiences() {
             </CardHeader>
             <CardContent>
               <ul className="list-disc p-4">
-                <li>Trabalhei como <strong className="text-green-500">full-stack</strong>, proporcionando uma visão abrangente do desenvolvimento, em sistemas legados e novos produtos;</li>
-                <li><strong className="text-green-500">Conversei diretamente com os clientes</strong>, analisei requisitos, alinhei ideias, problemas, soluções;</li>
-                <li>Integrei com <strong className="text-green-500">serviços de pagamento</strong> através de <strong className="text-green-500">API</strong> e <strong className="text-green-500">Webhook da Stripe</strong>;</li>
-                <li>Desenvolvi <strong className="text-green-500">agentes de IA</strong> para um sistema gerar automaticamente <strong className="text-green-500">relatórios de desempenho</strong> dos clientes;</li>
-                <li>Implementei mecanismos de segurança, incluindo <strong className="text-green-500">criptografia</strong> de senhas e autenticação de usuários via <strong className="text-green-500">tokens JWT</strong>;</li>
-                <li>Gerenciei o banco de dados <strong className="text-green-500">SQL</strong>, e construi e otimizei <strong className="text-green-500">queries SQL complexas</strong> para grandes informações em múltiplas tabelas,
-                expondo através de uma <strong className="text-green-500">API com paginação</strong>;</li>
-                <li>Administrei e realizei o <strong className="text-green-500">deploy (hospedagem)</strong> de sistemas em produção, utilizando protocolos como <strong className="text-green-500">FTP, SFTP</strong> e ferramentas de
-                gerenciamento de servidores;</li>
-                <li>Desenvolvi um <strong className="text-green-500">chatbot com IA do Gemini</strong>, con <strong className="text-green-500">streaming das respostas</strong> e contexto através de <strong className="text-green-500">RAG</strong>; </li>
-                <li>Trabalhei com a Metodologia Ágil: <strong className="text-green-500">Kanban</strong> no <strong className="text-green-500">Trello</strong>, e com resumos diários sobre o que as tarefas fizemos no período;</li>
-                <li>Implementei <strong className="text-green-500">permissões RBAC e ABAC</strong> para diferentes cargos e hierarquias;</li>
-                <li>Desenvolvi um sistema para emissão de <strong className="text-green-500">Notas Fiscais eletrónicas (NFe)</strong> emitindo direto no <strong className="text-green-500">sistema da Prefeitura de São Paulo</strong>.</li>
+                <li>Desenvolvi um emissor de <strong className="text-green-500">NF-e</strong> integrado ao sistema da Prefeitura de SP usando <strong className="text-green-500">PHP puro</strong>, o que <strong className="text-green-500">reduziu drasticamente o tempo de emissão</strong> e faturamento das empresas;</li>
+                <li>Otimizei queries <strong className="text-green-500">SQL</strong> complexas e criei paginação em <strong className="text-green-500">APIs REST com PHP</strong> com autenticação <strong className="text-green-500">JWT</strong>, reduzindo o carregamento de relatórios pesados de <strong className="text-green-500">8 minutos para menos de 1 segundo</strong>;</li>
+                <li>Construí um sistema de <strong className="text-green-500">relatórios automatizados</strong> com <strong className="text-green-500">Node.js, React</strong> e <strong className="text-green-500">Gemini API com RAG</strong>, eliminando a escrita manual ao gerar PDFs personalizados com gráficos e imagens;</li>
+                <li>Criei um <strong className="text-green-500">chatbot</strong> com <strong className="text-green-500">Node.js e React</strong> integrado à API do <strong className="text-green-500">Gemini</strong> usando <strong className="text-green-500">RAG e streaming de respostas</strong> em tempo real para tirar dúvidas dos usuários sobre os relatórios;</li>
+                <li>Implementei assinaturas recorrentes via <strong className="text-green-500">Stripe (APIs e Webhooks)</strong> e pagamentos automáticos por <strong className="text-green-500">PIX com o Pagar.me</strong>, eliminando a necessidade de conciliação financeira manual;</li>
+                <li>Refatorei a segurança de produtos novos e legados com controle de acesso <strong className="text-green-500">RBAC e ABAC</strong>, <strong className="text-green-500">criptografia de senhas</strong> e autenticação segura via <strong className="text-green-500">tokens</strong>;</li>
+                <li>Alinhei ideias diretamente com clientes, traduzindo regras de negócios em soluções técnicas e documentando APIs via <strong className="text-green-500">Swagger</strong>;</li>
+                <li>Administrei <strong className="text-green-500">deploys</strong> em produção usando <strong className="text-green-500">SFTP e SSH</strong>, assegurando estabilidade e <strong className="text-green-500">alta disponibilidade</strong> das aplicações;</li>
+                <li>Atuei sob o framework <strong className="text-green-500">Kanban</strong>, participando de Dailies para remover impedimentos e otimizar as entregas.</li>
               </ul>
             </CardContent>
             <CardFooter>

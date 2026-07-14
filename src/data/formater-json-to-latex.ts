@@ -44,9 +44,14 @@ async function generate() {
         ? formattedStart 
         : `${formattedStart} -- ${formattedEnd}`;
 
+
       if (project.urls.repository != null) {
+          const projectUrlWithoutHttp = project.urls.repository
+            .replace(/^https?:\/\//, '') 
+            .replace(/\/$/, '');
+
         projects_latex += `
-\\noindent \\href{${project.urls.repository}}{\\bfseries ${project.title}} \\hfill\\ ${datePeriod} \\\\
+\\noindent {\\bfseries ${project.title}} \\textbar{}  \\href{${project.urls.repository}}{${projectUrlWithoutHttp}} \\hfill\\ ${datePeriod} \\\\
 ${project.description}
 \\begin{itemize}`;
       } else {
