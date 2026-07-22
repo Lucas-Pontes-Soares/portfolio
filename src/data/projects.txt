@@ -100,7 +100,7 @@ Repositório: https://github.com/Lucas-Pontes-Soares/node-testable-apps
 
 // ----------------------------------- 
         
-Nest.JS Library API
+NestJS Library API
 Mar 2026 -- Abr 2026
 API REST para gerenciamento de uma biblioteca física, implementando controle de acesso por perfis (RBAC) e regras de permissões.
 - Apliquei práticas de arquitetura modular separando recursos em repositórios, DTOs, controllers, interfaces e services;
@@ -109,7 +109,7 @@ API REST para gerenciamento de uma biblioteca física, implementando controle de
 - Desenvolvi a lógica de controle de acesso baseado em funções (RBAC) separando permissões entre clientes e bibliotecários;
 - Estruturei uma matriz de permissões no arquivo permissions.ts para gerenciar dinamicamente as ações permitidas a cada perfil.
 
-Tecnologias: Nest.js, Node.js, Typescript, Git, PostgreSQL, Drizzle, Roles, RBAC, ABAC, JWT.
+Tecnologias: NestJS, Node.js, Typescript, Git, PostgreSQL, Drizzle, Roles, RBAC, ABAC, JWT.
 
 Repositório: https://github.com/Lucas-Pontes-Soares/nest-library-api
     
@@ -133,7 +133,7 @@ Repositório: https://github.com/Lucas-Pontes-Soares/devroast
 
 // ----------------------------------- 
         
-MasterClass Nest.js
+MasterClass NestJS
 Mar 2026
 Estudo das práticas e arquitetura opinada do framework NestJS, explorando injeção de dependência e desacoplamento de camadas.
 - Desenvolvi uma API REST em NestJS para absorver a arquitetura e o ecossistema do framework;
@@ -141,7 +141,7 @@ Estudo das práticas e arquitetura opinada do framework NestJS, explorando inje�
 - Configurei e integrei um banco de dados SQLite utilizando o Prisma ORM para persistência dos dados;
 - Organizei e estruturei a aplicação dividindo as responsabilidades em módulos, controllers, providers, repositories e DTOs.
 
-Tecnologias: Nest.js, Typescript, Node.js, Prisma, SQLite, Git.
+Tecnologias: NestJS, Typescript, Node.js, Prisma, SQLite, Git.
 
 Repositório: https://github.com/Lucas-Pontes-Soares/masterclass-nestjs
     

@@ -56,7 +56,7 @@ ${project.description}
 \\begin{itemize}`;
       } else {
         projects_latex += `
-\\noindent \\bfseries ${project.title} \\hfill\\ ${datePeriod} \\\\
+\\noindent {\\bfseries ${project.title}} \\hfill\\ ${datePeriod} \\\\
 ${project.description}
 \\begin{itemize}`;
       }

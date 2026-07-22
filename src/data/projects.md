@@ -80,7 +80,7 @@ API de agendamentos para uma barbearia desenvolvida de forma isolada do banco de
 
 <!-- -------------------------------------- -->    
         
-* **[Nest.JS Library API](https://github.com/Lucas-Pontes-Soares/nest-library-api)** | Mar 2026 -- Abr 2026  
+* **[NestJS Library API](https://github.com/Lucas-Pontes-Soares/nest-library-api)** | Mar 2026 -- Abr 2026  
 API REST para gerenciamento de uma biblioteca física, implementando controle de acesso por perfis (RBAC) e regras de permissões.
     * Apliquei práticas de arquitetura modular separando recursos em repositórios, DTOs, controllers, interfaces e services;
     * Implementei autenticação via tokens JWT utilizando Guards do NestJS para a validação das requisições;
@@ -88,7 +88,7 @@ API REST para gerenciamento de uma biblioteca física, implementando controle de
     * Desenvolvi a lógica de controle de acesso baseado em funções (RBAC) separando permissões entre clientes e bibliotecários;
     * Estruturei uma matriz de permissões no arquivo permissions.ts para gerenciar dinamicamente as ações permitidas a cada perfil.
 
-    `Tecnologias`: Nest.js, Node.js, Typescript, Git, PostgreSQL, Drizzle, Roles, RBAC, ABAC, JWT.
+    `Tecnologias`: NestJS, Node.js, Typescript, Git, PostgreSQL, Drizzle, Roles, RBAC, ABAC, JWT.
 
 <!-- -------------------------------------- -->    
         
@@ -105,14 +105,14 @@ Analisador de qualidade de código baseado em inteligência artificial que avali
 
 <!-- -------------------------------------- -->    
         
-* **[MasterClass Nest.js](https://github.com/Lucas-Pontes-Soares/masterclass-nestjs)** | Mar 2026  
+* **[MasterClass NestJS](https://github.com/Lucas-Pontes-Soares/masterclass-nestjs)** | Mar 2026  
 Estudo das práticas e arquitetura opinada do framework NestJS, explorando injeção de dependência e desacoplamento de camadas.
     * Desenvolvi uma API REST em NestJS para absorver a arquitetura e o ecossistema do framework;
     * Apliquei na prática os conceitos de Inversão de Dependência e Injeção de Dependência para desacoplamento;
     * Configurei e integrei um banco de dados SQLite utilizando o Prisma ORM para persistência dos dados;
     * Organizei e estruturei a aplicação dividindo as responsabilidades em módulos, controllers, providers, repositories e DTOs.
 
-    `Tecnologias`: Nest.js, Typescript, Node.js, Prisma, SQLite, Git.
+    `Tecnologias`: NestJS, Typescript, Node.js, Prisma, SQLite, Git.
 
 <!-- -------------------------------------- -->    
         

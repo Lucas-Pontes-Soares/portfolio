@@ -93,7 +93,7 @@ const iconMapping: { [key: string]: IconType } = {
   "Gemini": SiGooglegemini,
   "Embeddings": VectorSquare,
   "Chunks": GiKnifeFork,
-  "Nest.js": SiNestjs,
+  "NestJS": SiNestjs,
   "Prisma": SiPrisma,
   "SQLite": SiSqlite,
   "Jaeger": SiJaeger,

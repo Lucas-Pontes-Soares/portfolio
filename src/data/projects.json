@@ -181,7 +181,7 @@
             "tags": "Node.js, Typescript, Git, Vitest, Tests, Unit Tests, Integration Tests, E2E Tests, SOLID, POO."
         },
         {
-            "title": "Nest.JS Library API",
+            "title": "NestJS Library API",
             "description": "API REST para gerenciamento de uma biblioteca física, implementando controle de acesso por perfis (RBAC) e regras de permissões.",
             "isHighlighted": true,
             "date": {
@@ -204,7 +204,7 @@
                 "Desenvolvi a lógica de controle de acesso baseado em funções (RBAC) separando permissões entre clientes e bibliotecários;",
                 "Estruturei uma matriz de permissões no arquivo permissions.ts para gerenciar dinamicamente as ações permitidas a cada perfil."
             ],
-            "tags": "Nest.js, Node.js, Typescript, Git, PostgreSQL, Drizzle, Roles, RBAC, ABAC, JWT."
+            "tags": "NestJS, Node.js, Typescript, Git, PostgreSQL, Drizzle, Roles, RBAC, ABAC, JWT."
         },
         {
             "title": "DevRoast",
@@ -234,7 +234,7 @@
             "tags": "Next.js, IA, Gemini, Claude Code, MCP, Git, Agentes, Typescript, tailwind-css, Pencil, Base-ui, PostgreSQL."
         },
         {
-            "title": "MasterClass Nest.js",
+            "title": "MasterClass NestJS",
             "description": "Estudo das práticas e arquitetura opinada do framework NestJS, explorando injeção de dependência e desacoplamento de camadas.",
             "isHighlighted": false,
             "date": {
@@ -256,7 +256,7 @@
                 "Configurei e integrei um banco de dados SQLite utilizando o Prisma ORM para persistência dos dados;",
                 "Organizei e estruturei a aplicação dividindo as responsabilidades em módulos, controllers, providers, repositories e DTOs."
             ],
-            "tags": "Nest.js, Typescript, Node.js, Prisma, SQLite, Git."
+            "tags": "NestJS, Typescript, Node.js, Prisma, SQLite, Git."
         },
         {
             "title": "Práticas de RAG",
