@@ -30,7 +30,7 @@ export default function Experiences() {
                 </Avatar>
                 <div className="ml-4">
                   <CardTitle>IRIZ Soluções em T.I</CardTitle>
-                  <CardDescription>Estágio em Programação</CardDescription>
+                  <CardDescription>Estágio em Programação Full Stack</CardDescription>
                 </div>
               </div>
               <CardAction className="text-zinc-400">
