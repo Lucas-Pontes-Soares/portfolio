@@ -96,10 +96,10 @@ API REST para gerenciamento de uma biblioteca física, implementando controle de
 Analisador de qualidade de código baseado em inteligência artificial que avalia e fornece feedbacks de 0 a 10.
     * Apliquei melhores práticas de engenharia de prompts estruturados para guiar os agentes de IA;
     * Integrei o Claude Code com Model Context Protocol (MCP) e skills customizadas para automação do fluxo;
+    * Apliquei a metodologia Spec-Driven Development (SSD) e etapas de plan-build;
     * Desenvolvi a interface web responsiva utilizando a arquitetura do Next.js;
     * Desenvolvi a camada de persistência e serviços back-end e banco de dados PostgreSQL;
-    * Implementei a lógica de análise estática e interpretativa de código conectando à API do Gemini;
-    * Programei as visualizações de métricas de qualidade, sugestões de correções e sistema de ranqueamento.
+    * Implementei a lógica de análise estática e interpretativa de código conectando à API do Gemini.
 
     `Tecnologias`: Next.js, IA, Gemini, Claude Code, MCP, Git, Agentes, Typescript, tailwind-css, Pencil, Base-ui, PostgreSQL.
 
@@ -142,7 +142,7 @@ Estudo e implementação de estratégias de cache do tipo chave-valor utilizando
 
 <!-- -------------------------------------- -->    
         
-* **[Desafio Microsserviços Escaláveis Node.js](https://github.com/Lucas-Pontes-Soares/desafio-microsservicos-escalaveis-Node.js)** | Fev 2026  
+* **[Desafio Microsserviços Escaláveis Node.js](https://github.com/Lucas-Pontes-Soares/desafio-microsservicos-escalaveis-nodejs)** | Fev 2026  
 Desenvolvimento de ecossistema baseado em microsserviços independentes, focando em alta disponibilidade de maneira escalável.
     * Desenvolvi microsserviços independentes com comunicação assíncrona via RabbitMQ;
     * Configurei o ambiente Docker para a execução local dos bancos de dados e do message broker;

@@ -226,10 +226,10 @@
             "topics": [
                 "Apliquei melhores práticas de engenharia de prompts estruturados para guiar os agentes de IA;",
                 "Integrei o Claude Code com Model Context Protocol (MCP) e skills customizadas para automação do fluxo;",
+                "Apliquei a metodologia Spec-Driven Development (SSD) e etapas de plan-build;",
                 "Desenvolvi a interface web responsiva utilizando a arquitetura do Next.js;",
                 "Desenvolvi a camada de persistência e serviços back-end e banco de dados PostgreSQL;",
-                "Implementei a lógica de análise estática e interpretativa de código conectando à API do Gemini;",
-                "Programei as visualizações de métricas de qualidade, sugestões de correções e sistema de ranqueamento."
+                "Implementei a lógica de análise estática e interpretativa de código conectando à API do Gemini."
             ],
             "tags": "Next.js, IA, Gemini, Claude Code, MCP, Git, Agentes, Typescript, tailwind-css, Pencil, Base-ui, PostgreSQL."
         },
@@ -325,7 +325,7 @@
                 "video": null
             },
             "urls": {
-                "repository": "https://github.com/Lucas-Pontes-Soares/desafio-microsservicos-escalaveis-Node.js",
+                "repository": "https://github.com/Lucas-Pontes-Soares/desafio-microsservicos-escalaveis-nodejs",
                 "deploy": null,
                 "article": null
             },
