@@ -29,8 +29,8 @@ export default function Experiences() {
                   <AvatarImage src={`${import.meta.env.BASE_URL}iriz_solues_em_t_i__logo.jpg`} alt="IRIZ" />
                 </Avatar>
                 <div className="ml-4">
-                  <CardTitle>IRIZ Soluções em T.I</CardTitle>
-                  <CardDescription>Estágio em Programação Full Stack</CardDescription>
+                  <CardTitle>Desenvolvedor Full Stack</CardTitle>
+                  <CardDescription>IRIZ Soluções em T.I | Estágio</CardDescription>
                 </div>
               </div>
               <CardAction className="text-zinc-400">
