@@ -1,7 +1,7 @@
 import Navigation from "@/components/navigation";
 import { ProjectCard } from "@/components/project-card";
 import { Input } from "@/components/ui/input";
-import { BrushCleaning, Search, Star, FolderGit2 } from "lucide-react";
+import { BrushCleaning, Search, Star, FolderGit2, InfinityIcon } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
@@ -27,6 +27,7 @@ const TAGS_PRINCIPAIS = [
   "IA",
   "AWS",
   "Azure",
+  "CI/CD",
   "PostgreSQL",
   "Docker",
   "RabbitMQ",
@@ -44,6 +45,7 @@ const iconMapping: { [key: string]: IconType } = {
   "IA": FaRobot,
   "AWS": FaAws,
   "Azure": VscAzure,
+  "CI/CD": InfinityIcon,
   "PostgreSQL": SiPostgresql,
   "Docker": FaDocker,
   "RabbitMQ": SiRabbitmq,

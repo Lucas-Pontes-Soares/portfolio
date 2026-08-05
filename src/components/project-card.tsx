@@ -46,6 +46,7 @@ const iconMapping: { [key: string]: IconType } = {
   "DockerHub": FaDocker,
   "CI": FaSync,
   "CD": FaRocket,
+  "CI/CD": InfinityIcon,
   "GitHub": FaGithub,
   "GitHub Actions": FaPlay,
   "Azure": VscAzure,

@@ -1,12 +1,12 @@
 
 * **GFT - Fundamentos de Cloud com AWS** | Jun 2026 -- Jul 2026  
 Bootcamp da DIO, para aprender sobre a AWS, de forma prática.
-    * Criei contas e configurei cargos e permissões com o IAM;
-    * Criei diagramas  e fluxogramas de arquitetura e infraestrutura nuvem AWS no draw.io;
-    * Estudei e apliquei sobre Amazon EC2, Lambda, Serverless;
-    * Estudei e apliquei sobre os bancos de dados RDS, DynamoDB, S3;
-    * Estudei e apliquei sobre SQS e SNS;
-    * Aprimorei meus conhecimentos sobre EKS, Docker e DevOPS.
+    * Gerenciei políticas e permissões de acesso, garantindo segurança no IAM;
+    * Projetei diagramas de infraestrutura, modelando o Design System através Draw.io e excalidraw;
+    * Implementei computação escalável e rotinas orientadas a eventos com Amazon EC2 e Lambda;
+    * Estruturei persistência de dados em ambientes SQL e NoSQL gerenciados via RDS, DynamoDB e S3;
+    * Orquestrei integração assíncrona entre serviços utilizando mensageria e notificações com SQS e SNS;
+    * Consolidei ecossistema de orquestração de contêineres, criando fluxo de CI/CD utilizando Docker e EKS.
 
     `Tecnologias`: AWS, Cloud, Amazon, EC2, Lambda, IAM, RDS, DynamoDB, S3, SQS, SNS, EKS, DevOps.
 
@@ -151,7 +151,7 @@ Desenvolvimento de ecossistema baseado em microsserviços independentes, focando
     * Implementei a estrutura de observabilidade da arquitetura utilizando Grafana e Jaeger para logging e tracing;
     * Automatizei o fluxo de deploy em infraestrutura AWS Fargate utilizando a ferramenta de IaC Pulumi.
 
-    `Tecnologias`: Node.js, PostgreSQL, RabbitMQ, Grafana, Jaeger, Pulumi, AWS, Git, GitHub, Drizzle, Docker, GitHub Actions, CI, CD.
+    `Tecnologias`: Node.js, PostgreSQL, RabbitMQ, Grafana, Jaeger, Pulumi, AWS, Git, GitHub, Drizzle, Docker, CI/CD, GitHub Actions
 
 <!-- -------------------------------------- -->    
         
@@ -164,7 +164,7 @@ Projeto integrador da faculdade, uma plataforma web interativa que centraliza o 
     * Gerenciei o banco de dados SQL;
     * Administrei e realizei o deploy (hospedagem).
 
-    `Tecnologias`: IA, Node.js, React.js, PostgreSQL (SQL), RAG, JWT, Heroku, Git, tailwind-css, shadcn-ui.
+    `Tecnologias`: IA, Node.js, React.js, PostgreSQL, RAG, JWT, Heroku, Git, tailwind-css, shadcn-ui.
 
 <!-- -------------------------------------- -->    
         
@@ -199,7 +199,7 @@ Projeto de DevOps e Cloud focada em conteinerização com Docker e orquestraçã
     * Configurei o cluster Kubernetes na Azure (AKS) definindo a execução resiliente de dois pods;
     * Realizei o deploy e a sustentação da aplicação conteinerizada utilizando a infraestrutura de nuvem da Azure.
 
-    `Tecnologias`: Docker, DockerHub, CI, CD, GitHub, Git, GitHub Actions, Azure, Kubernetes.
+    `Tecnologias`: Docker, DockerHub, CI/CD, GitHub, Git, GitHub Actions, Azure, Kubernetes.
 
 <!-- -------------------------------------- -->    
         
@@ -234,7 +234,7 @@ Site temático de jornal para explicar sobre Docker utilizado DevOps e CI/CD.
     * Automatizei gatilhos para que a cada push ou pull request a aplicação fosse construída e testada de forma consistente;
     * Realizei a hospedagem e a publicação automatizada do site através do GitHub Pages.
 
-    `Tecnologias`: Docker, build, HTML, CSS, CI, GitHub, Git, GitHub Actions, GitHub Pages.
+    `Tecnologias`: Docker, build, HTML, CSS, CI/CD, GitHub, Git, GitHub Actions, GitHub Pages.
 
 <!-- -------------------------------------- -->    
         

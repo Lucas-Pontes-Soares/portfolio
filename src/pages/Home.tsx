@@ -2,10 +2,10 @@ import Navigation from "@/components/navigation";
 import { SkillBadge } from "@/components/skill-badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { BR, ES, US } from "country-flag-icons/react/3x2";
-import { File, LucideFileJson, TestTube } from "lucide-react";
-import { FaAngular, FaArrowsAlt, FaBrain, FaCheck, FaClipboardList, FaCode, FaComment, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaHtml5, FaJava, FaJs, FaLightbulb, FaMicrochip, FaMobileAlt, FaNodeJs, FaPalette, FaPhp, FaPlay, FaProjectDiagram, FaPython, FaReact, FaSitemap, FaTasks, FaThLarge, FaUsers, FaWordpress, FaWrench, FaVial, FaCubes, FaShapes, FaShieldAlt, FaLayerGroup, FaAws } from "react-icons/fa";
-import { GiFamilyTree } from 'react-icons/gi';
-import { SiEspressif, SiGooglegemini, SiGrafana, SiMongodb, SiNestjs, SiOpenai, SiPostgresql, SiRabbitmq, SiRedis, SiTypescript, SiVitest } from "react-icons/si";
+import { ComputerIcon, File, InfinityIcon, List, LucideFileJson, TestTube } from "lucide-react";
+import { FaAngular, FaArrowsAlt, FaBrain, FaClipboardList, FaCode, FaComment, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaHtml5, FaJava, FaJs, FaMicrochip, FaMobileAlt, FaNodeJs, FaPalette, FaPhp, FaPlay, FaProjectDiagram, FaPython, FaReact, FaTasks, FaThLarge, FaUsers, FaWordpress, FaWrench, FaVial, FaCubes, FaShapes, FaShieldAlt, FaLayerGroup, FaAws } from "react-icons/fa";
+import { GiGears } from 'react-icons/gi';
+import { SiClaude, SiEspressif, SiGooglegemini, SiKubernetes, SiMongodb, SiNestjs, SiOpenai, SiPostgresql, SiRabbitmq, SiRedis, SiTypescript, SiVitest } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 
 export default function Home() {
@@ -87,13 +87,14 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">DevOps & Monitoria:</h3>
+                  <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">DevOps:</h3>
                   <div className="flex flex-wrap gap-2">
                     <SkillBadge name="Docker" icon={FaDocker} />
                     <SkillBadge name="AWS" icon={FaAws} />
                     <SkillBadge name="Azure" icon={VscAzure} />
                     <SkillBadge name="Github Actions" icon={FaPlay} />
-                    <SkillBadge name="Grafana" icon={SiGrafana} />
+                    <SkillBadge name="CI/CD" icon={InfinityIcon} />
+                    <SkillBadge name="Kubernetes" icon={SiKubernetes} />
                   </div>
                 </div>
 
@@ -110,12 +111,12 @@ export default function Home() {
                   <div className="flex flex-wrap gap-2">
                     <SkillBadge name="Gemini" icon={SiGooglegemini} />
                     <SkillBadge name="RAG" icon={File} />
-                    <SkillBadge name="Perceptron" icon={FaBrain} />
+                    <SkillBadge name="Claude Code" icon={SiClaude} />
                     <SkillBadge name="OpenAI" icon={SiOpenai} />
-                    <SkillBadge name="Árvores de Decisão" icon={FaSitemap} />
                     <SkillBadge name="CNN" icon={FaBrain} />
-                    <SkillBadge name="Redes Neurais" icon={FaBrain} />
-                    <SkillBadge name="Navegação e Busca" icon={FaCompass} />
+                    <SkillBadge name="Spec-Driven Development (SSD)" icon={List} />
+                    <SkillBadge name="MCPs" icon={ComputerIcon} />
+                    <SkillBadge name="Skills" icon={GiGears} />
                   </div>
                 </div>
 
@@ -137,9 +138,7 @@ export default function Home() {
                     <SkillBadge name="SOLID" icon={FaCubes} />
                     <SkillBadge name="POO" icon={FaShapes} />
                     <SkillBadge name="Roles (RBAC/ABAC)" icon={FaShieldAlt} />
-                    <SkillBadge name="Estrutura de Dados" icon={GiFamilyTree} />
-                    <SkillBadge name="Lógica de Programação" icon={FaLightbulb} />
-                    <SkillBadge name="Boas Práticas" icon={FaCheck} />
+                    <SkillBadge name="Spec-Driven Development (SSD)" icon={List} />
                   </div>
                 </div>
               </CardContent>
