@@ -202,12 +202,12 @@ Repositório: https://github.com/Lucas-Pontes-Soares/desafio-microsservicos-esca
 Dumble: Sistema Educacional Com Inteligência Artificial
 Fev 2025 -- Dez 2025
 Projeto integrador da faculdade, uma plataforma web interativa que centraliza o ensino para fortalecer o vínculo professor-aluno.
-- Desenvolvi a parte da IA com RAG, onde os professores anexavam arquivos e o conteudo deles eram disponibilizados para a IA;
-- Construi os prompts rigorosos e estruturados de IA, para o chat-bot e a sugestão de perguntas;
-- Desenvolvi o front-end de maneira responsiva;
-- Implementei autenticação de usuários via tokens JWT;
-- Gerenciei o banco de dados SQL;
-- Administrei e realizei o deploy (hospedagem).
+- Desenvolvi a IA via Gemini com Prompt Engineering e RAG, os professores anexavam arquivos (slides) das aulas para contexto;
+- Construi sugestão de questões via IA e Skills para saídas JSON específicas de cada tipo (múltipla escolha, pares, lacuna);
+- Desenvolvi o Chatbot com RAG e streaming para os alunos tirarem dúvidas sobre as aulas de forma personalizada;
+- Implementei API REST em Node.js com banco relacional PostgreSQL e autenticação JWT para acesso seguro;
+- Desenvolvi front-end responsivo em React.js com Tailwind CSS e Shadcn/ui focado na usabilidade;
+- Administrei e realizei o deploy e hospedagem via Heroku.
 
 Tecnologias: IA, Node.js, React.js, PostgreSQL, RAG, JWT, Heroku, Git, tailwind-css, shadcn-ui.
 
