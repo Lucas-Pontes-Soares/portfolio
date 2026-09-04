@@ -1,4 +1,21 @@
 
+Workflow n8n Sentiment Analysis
+Ago 2026 -- Set 2026
+Workflow n8n para análise de sentimentos de feedbacks dos clientes sobre produtos, via IA (Gemini).
+- Arquitetei workflow assíncrono e escalável no n8n para automação de triagem e análise de sentimentos de feedbacks de clientes;
+- Integrei a API do Google Gemini utilizando engenharia de prompt (Prompt Engineering) com saída estritamente formatada em JSON;
+- Desenvolvi rotina automática de geração sugestão de respostas para os clientes, analisado através do sentimento e risco;
+- Implementei lógica de controle de fluxo com tratamento de idempotência, apenas registros não processados sejam analisados;
+- Estruturei pipeline de dados integrando o Google Sheets como banco de dados leve via autenticação OAuth2;
+- Apliquei técnicas de rate limiting com nós de espera (Wait) para respeitar os limites operacionais da API do Gemini.
+
+Tecnologias: n8n, Gemini, IA, JSON, Workflow
+
+Repositório: https://github.com/Lucas-Pontes-Soares/n8n-sentiment-analysis-gemini
+    
+
+// ----------------------------------- 
+        
 GFT - Fundamentos de Cloud com AWS
 Jun 2026 -- Jul 2026
 Bootcamp da DIO, para aprender sobre a AWS, de forma prática.

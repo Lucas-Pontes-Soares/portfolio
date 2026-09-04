@@ -6,10 +6,10 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { BookOpen, Calendar, ComputerIcon, Database, ExternalLink, Github, InfinityIcon, ListCheckIcon, Monitor, PhoneIncoming, ServerCog, Star, TestTube, UserCheck2, VectorSquare } from "lucide-react";
+import { BookOpen, Calendar, ComputerIcon, Database, ExternalLink, FileJson, Github, InfinityIcon, ListCheckIcon, Monitor, PhoneIncoming, ServerCog, Star, TestTube, UserCheck2, VectorSquare, WorkflowIcon } from "lucide-react";
 import { SkillBadge } from "./skill-badge";
 import { FaAngular, FaBroadcastTower, FaBrain, FaChalkboardTeacher, FaClipboardList, FaCode, FaCompass, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaGithub, FaGitAlt, FaHtml5, FaJava, FaLightbulb, FaMicrochip, FaNodeJs, FaPaintBrush, FaPhp, FaPlay, FaPython, FaQuestionCircle, FaReact, FaRobot, FaRocket, FaRunning, FaSearchMinus, FaSitemap, FaSync, FaUsers, FaWrench, FaJs, FaAws, FaFire, FaUserShield, FaShieldAlt, FaLock, FaPencilAlt, FaNetworkWired, FaVial, FaVials, FaCubes, FaShapes, FaLeaf, FaBook, FaNewspaper, FaLaptopCode, FaListUl, FaRandom, FaExclamationTriangle, FaLayerGroup, FaGlobe, FaGem, FaObjectGroup, FaCloud, FaAmazon } from "react-icons/fa";
-import { SiDrizzle, SiFlutter, SiGooglegemini, SiGrafana, SiGradle, SiHeroku, SiJaeger, SiJsonwebtokens, SiKubernetes, SiMongodb, SiMysql, SiNestjs, SiNextdotjs, SiPostgresql, SiPrisma, SiPulumi, SiRabbitmq, SiSpringboot, SiApachemaven, SiSqlite, SiTailwindcss, SiTurso, SiTypescript, SiMui, SiVitest, SiClaude, SiRedis } from "react-icons/si";
+import { SiDrizzle, SiFlutter, SiGooglegemini, SiGrafana, SiGradle, SiHeroku, SiJaeger, SiJsonwebtokens, SiKubernetes, SiMongodb, SiMysql, SiNestjs, SiNextdotjs, SiPostgresql, SiPrisma, SiPulumi, SiRabbitmq, SiSpringboot, SiApachemaven, SiSqlite, SiTailwindcss, SiTurso, SiTypescript, SiMui, SiVitest, SiClaude, SiRedis, SiN8N } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 import { type IconType } from "react-icons";
 import { GiKnifeFork, GiPaintBucket, } from "react-icons/gi";
@@ -131,6 +131,9 @@ const iconMapping: { [key: string]: IconType } = {
   "EKS": SiKubernetes,
   "DevOps": InfinityIcon,
   "Redis": SiRedis,
+  "n8n": SiN8N,
+  "JSON": FileJson,
+  "Workflow": WorkflowIcon
 };
 
 const getIconForSkill = (skill: string): IconType | undefined => {

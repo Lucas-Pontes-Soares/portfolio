@@ -5,7 +5,7 @@ import { BR, ES, US } from "country-flag-icons/react/3x2";
 import { ComputerIcon, File, InfinityIcon, List, LucideFileJson, TestTube } from "lucide-react";
 import { FaAngular, FaArrowsAlt, FaBrain, FaClipboardList, FaCode, FaComment, FaCss3Alt, FaDatabase, FaDocker, FaExchangeAlt, FaHtml5, FaJava, FaJs, FaMicrochip, FaMobileAlt, FaNodeJs, FaPalette, FaPhp, FaPlay, FaProjectDiagram, FaPython, FaReact, FaTasks, FaThLarge, FaUsers, FaWordpress, FaWrench, FaVial, FaCubes, FaShapes, FaShieldAlt, FaLayerGroup, FaAws } from "react-icons/fa";
 import { GiGears } from 'react-icons/gi';
-import { SiClaude, SiEspressif, SiGooglegemini, SiKubernetes, SiMongodb, SiNestjs, SiOpenai, SiPostgresql, SiRabbitmq, SiRedis, SiTypescript, SiVitest } from "react-icons/si";
+import { SiClaude, SiEspressif, SiGooglegemini, SiKubernetes, SiMongodb, SiN8N, SiNestjs, SiOpenai, SiPostgresql, SiRabbitmq, SiRedis, SiTypescript, SiVitest } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 
 export default function Home() {
@@ -101,6 +101,7 @@ export default function Home() {
                 <div>
                   <h3 className="font-semibold mb-3 text-green-500 uppercase text-sm tracking-wider">Automação:</h3>
                   <div className="flex flex-wrap gap-2">
+                    <SkillBadge name="n8n" icon={SiN8N} />
                     <SkillBadge name="Arduino" icon={FaMicrochip} />
                     <SkillBadge name="ESP 32" icon={SiEspressif} />
                   </div>
