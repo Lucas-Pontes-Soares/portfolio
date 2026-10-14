@@ -10,7 +10,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import { FaBrain, FaCalculator, FaChartBar, FaClipboardList, FaCloud, FaCogs, FaDatabase, FaGlobe, FaInfinity, FaLightbulb, FaMicrochip, FaMobileAlt, FaNetworkWired, FaRobot, FaSearch, FaSitemap } from "react-icons/fa";
+import { FaBookOpen, FaBrain, FaCalculator, FaChartBar, FaClipboardList, FaCloud, FaCogs, FaComments, FaDatabase, FaGlobe, FaGlobeAmericas, FaHeadphones, FaInfinity, FaLanguage, FaLightbulb, FaMicrochip, FaMobileAlt, FaNetworkWired, FaPenFancy, FaRobot, FaSearch, FaSitemap, FaUserFriends } from "react-icons/fa";
 import { GiFamilyTree } from "react-icons/gi";
 
 export default function AcademicLife() {
@@ -21,6 +21,45 @@ export default function AcademicLife() {
 
       <div className="mt-32">
         <div className="flex flex-col items-center justify-center p-6">
+          <Card className="w-full max-w-4xl">
+            <CardHeader className="flex items-center justify-between">
+              <div className="flex items-center">
+                <Avatar>
+                  <AvatarImage src={`${import.meta.env.BASE_URL}gt.png`} alt="GT" />
+                </Avatar>
+                <div className="ml-4">
+                  <CardTitle>GT Educational Center</CardTitle>
+                  <CardDescription>Intercâmbio Cultural em Chicago - Curso Intensivo de Inglês</CardDescription>
+                </div>
+              </div>
+              <CardAction className="text-zinc-400">
+                <p>Set 2026 - Out 2026</p>
+                <p className="text-right">1 mês</p>
+              </CardAction>
+            </CardHeader>
+              <CardContent>
+                <ul className="list-disc p-4">
+                  <li>Vivenciei uma imersão cultural e linguística em aulas ministradas por professores nativos e com turmas multinacionais.</li>
+                  <li>Pratiquei intensamente a comunicação em inglês nas quatro habilidades: conversação (speaking), escuta (listening), leitura (reading) e escrita (writing).</li>
+                  <li>Desenvolvi minha fluência, vocabulário e confiança para interações acadêmicas e profissionais.</li>
+                  <li>Me adaptei a ambientes socioculturais diversos e expandir minha bagagem internacional.</li>
+                </ul>
+              </CardContent>
+              <CardFooter>
+                <div className="flex flex-wrap gap-2">
+                  <SkillBadge name="Inglês Avançado" icon={FaLanguage} />
+                  <SkillBadge name="Imersão Cultural" icon={FaGlobeAmericas} />
+                  <SkillBadge name="Conversação (Speaking)" icon={FaComments} />
+                  <SkillBadge name="Compreensão Auditiva (Listening)" icon={FaHeadphones} />
+                  <SkillBadge name="Escrita (Writing)" icon={FaPenFancy} />
+                  <SkillBadge name="Leitura (Reading)" icon={FaBookOpen} />
+                  <SkillBadge name="Comunicação Intercultural" icon={FaUserFriends} />
+                  <SkillBadge name="Adaptabilidade" icon={FaBrain} />
+                </div>
+              </CardFooter> 
+          </Card>
+        </div>
+        <div className="flex flex-col items-center justify-center p-6"> 
           <Card className="w-full max-w-4xl">
             <CardHeader className="flex items-center justify-between">
               <div className="flex items-center">

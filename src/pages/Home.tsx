@@ -20,7 +20,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col lg:flex-row items-stretch justify-center gap-8 lg:gap-16">
             <div className="lg:w-1/3 flex items-center justify-center">
-              <img src={`${import.meta.env.BASE_URL}eu.jpg`} className="rounded-md w-60 h-60 object-cover" />
+              <img src={`${import.meta.env.BASE_URL}eu.jpg`} className="rounded-md w-54 h-72 object-cover" />
             </div>
 
             <Card className="lg:w-2/3">
